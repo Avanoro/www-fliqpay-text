@@ -1,8 +1,8 @@
 {
   "en": {
     "title": "Bonus system — FLIQ",
-    "back": "Back to roadmap",
-    "crumbRoadmap": "On the roadmap",
+    "back": "Go back",
+    "crumbRoadmap": "Payments",
     "crumbPage": "Bonus system",
     "heroLine1": "Rewards that",
     "heroLine2": "feel earned",
@@ -47,8 +47,8 @@
   },
   "sv": {
     "title": "Bonussystem — FLIQ",
-    "back": "Tillbaka till färdplanen",
-    "crumbRoadmap": "På färdplanen",
+    "back": "Tillbaka",
+    "crumbRoadmap": "Betalningar",
     "crumbPage": "Bonussystem",
     "heroLine1": "Förmåner som",
     "heroLine2": "känns förtjänta",
