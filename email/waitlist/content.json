@@ -1,0 +1,34 @@
+{
+  "en": {
+    "subject": "You're on the FLIQ waitlist — welcome.",
+    "preheader": "You're on the FLIQ early access list. We'll be in touch.",
+    "eyebrow": "You're on the list",
+    "h1pre": "Welcome to ",
+    "greet": "Hey {{firstName}},",
+    "p1": "Thanks for joining the FLIQ early access list — glad you're here.",
+    "p2": "You'll be among the first to hear when FLIQ opens for business in 2026. We'll only reach out when there's something real to share — an invite, a milestone, or a quiet update.",
+    "p3pre": "In the meantime, you can read about what we're building at ",
+    "link": "fliqpayments.com",
+    "p3post": ".",
+    "signLead": "Best regards",
+    "signTeam": "The FLIQ team",
+    "footHint": "You're receiving this because you joined the FLIQ waitlist at fliqpayments.com.",
+    "foot": "© 2026 Avanoro AB · Stockholm, Sverige"
+  },
+  "sv": {
+    "subject": "Du är på FLIQ-listan — välkommen.",
+    "preheader": "Du står på FLIQ:s lista för tidig åtkomst. Vi hör av oss.",
+    "eyebrow": "Du är med",
+    "h1pre": "Välkommen till ",
+    "greet": "Hej {{firstName}},",
+    "p1": "Tack för att du gått med på FLIQ:s lista för tidig åtkomst — kul att du är här.",
+    "p2": "Du kommer att vara bland de första att höra när FLIQ öppnar 2026. Vi hör bara av oss när vi har något riktigt att dela — en inbjudan, en milstolpe eller en stillsam uppdatering.",
+    "p3pre": "Under tiden kan du läsa om vad vi bygger på ",
+    "link": "fliqpayments.com",
+    "p3post": ".",
+    "signLead": "Med vänliga hälsningar",
+    "signTeam": "FLIQ - teamet",
+    "footHint": "Du får detta mejl för att du gick med på FLIQ:s väntelista.",
+    "foot": "© 2026 Avanoro AB · Stockholm, Sverige"
+  }
+}
