@@ -1,8 +1,8 @@
 {
   "en": {
     "title": "Start accepting payments — FLIQ",
-    "back": "Back to roadmap",
-    "crumbRoadmap": "On the roadmap",
+    "back": "Go back",
+    "crumbRoadmap": "Payments",
     "crumbPage": "Start accepting payments",
     "artChapter": "08 · Start accepting payments",
     "artQ1": "Flip the sign,",
@@ -52,8 +52,8 @@
   },
   "sv": {
     "title": "Börja ta emot betalningar — FLIQ",
-    "back": "Tillbaka till färdplanen",
-    "crumbRoadmap": "På färdplanen",
+    "back": "Tillbaka",
+    "crumbRoadmap": "Betalningar",
     "crumbPage": "Börja ta emot betalningar",
     "artChapter": "08 · Börja ta emot betalningar",
     "artQ1": "Vänd på skylten,",
