@@ -1,16 +1,18 @@
 name: Publish text → rebuild site
 
-# Körs i TEXT-repot (Avanoro/www-fliqpay-text).
-# När någon content.json ändras på main så:
-# 1. Rensas jsDelivr-cachen
-# 2. Triggas en rebuild av huvudsidan via Cloudflare Deploy Hook
+# Runs in the TEXT repo (Avanoro/www-fliqpay-text).
+# When content changes, it purges jsDelivr and tries to trigger a site rebuild.
+#
+# SAFE MODE (temporary):
+# The Cloudflare deploy hook step is allowed to fail without marking the commit red.
+# This is active while we fix the Cloudflare 12050 error.
 
 on:
   push:
     branches: [main]
     paths:
       - "**/*.json"
-  workflow_dispatch: {}     # Kan köras manuellt
+  workflow_dispatch: {}
 
 concurrency:
   group: publish-text
@@ -50,18 +52,20 @@ jobs:
       - name: Wait for purge to propagate
         run: sleep 20
 
-      - name: Trigger Cloudflare Pages deploy hook
+      - name: Trigger Cloudflare Pages deploy hook (safe mode - allowed to fail)
+        continue-on-error: true   # ← This is the key change for safe mode
         env:
           DEPLOY_HOOK: ${{ secrets.CF_PAGES_DEPLOY_HOOK }}
         run: |
           set -euo pipefail
 
           if [ -z "${DEPLOY_HOOK:-}" ]; then
-            echo "::error::Secret CF_PAGES_DEPLOY_HOOK is not set."
-            exit 1
+            echo "::warning::Secret CF_PAGES_DEPLOY_HOOK is not set. Skipping deploy trigger."
+            exit 0
           fi
 
-          echo "Triggering Cloudflare Pages deploy hook..."
+          echo "Attempting to trigger Cloudflare Pages deploy hook..."
+          echo "(This step is currently allowed to fail - see SAFE MODE comment above)"
 
           RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "$DEPLOY_HOOK")
           BODY=$(echo "$RESPONSE" | head -n -1)
@@ -71,8 +75,9 @@ jobs:
           echo "HTTP status: $STATUS"
 
           if [[ "$STATUS" != "200" && "$STATUS" != "201" ]]; then
-            echo "::error::Deploy hook failed with HTTP $STATUS"
-            exit 1
+            echo "::warning::Deploy hook failed with HTTP $STATUS (this is currently expected)"
+            echo "See Cloudflare error 12050 - build configuration issue being investigated."
+            exit 0   # Do not fail the job
           fi
 
-          echo "✅ Deploy hook triggered successfully. Cloudflare will now rebuild the site."
+          echo "✅ Deploy hook triggered successfully."
