@@ -1,11 +1,15 @@
 name: Publish text → rebuild site
 
 # Runs in the TEXT repo (Avanoro/www-fliqpay-text).
-# When content changes, it purges jsDelivr and tries to trigger a site rebuild.
 #
-# SAFE MODE (temporary):
-# The Cloudflare deploy hook step is allowed to fail without marking the commit red.
-# This is active while we fix the Cloudflare 12050 error.
+# Purpose:
+# When content JSON files are changed, trigger a rebuild of the main site
+# via Cloudflare Pages Deploy Hook.
+#
+# Note:
+# The site no longer relies on jsDelivr for text content (build-i18n.js
+# fetches directly from raw.githubusercontent.com). Therefore the old
+# jsDelivr purge step has been removed.
 
 on:
   push:
@@ -25,47 +29,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Purge all content.json from jsDelivr
-        run: |
-          set -euo pipefail
-
-          found=0
-          while IFS= read -r -d '' f; do
-            found=1
-            rel="${f#./}"
-            url="https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/${rel}"
-            echo "Purging: $url"
-
-            for attempt in 1 2 3; do
-              code=$(curl -s -o /tmp/purge.out -w "%{http_code}" "$url" || true)
-              cat /tmp/purge.out; echo
-              if [ "$code" = "200" ]; then break; fi
-              echo "  attempt $attempt got HTTP $code, retrying..."
-              sleep 5
-            done
-          done < <(find . -name 'content.json' -not -path '*/.git/*' -print0)
-
-          if [ "$found" = "0" ]; then
-            echo "No content.json files found — nothing to purge."
-          fi
-
-      - name: Wait for purge to propagate
-        run: sleep 20
-
-      - name: Trigger Cloudflare Pages deploy hook (safe mode - allowed to fail)
-        continue-on-error: true   # ← This is the key change for safe mode
+      - name: Trigger Cloudflare Pages deploy hook
         env:
           DEPLOY_HOOK: ${{ secrets.CF_PAGES_DEPLOY_HOOK }}
         run: |
           set -euo pipefail
 
           if [ -z "${DEPLOY_HOOK:-}" ]; then
-            echo "::warning::Secret CF_PAGES_DEPLOY_HOOK is not set. Skipping deploy trigger."
-            exit 0
+            echo "::error::Secret CF_PAGES_DEPLOY_HOOK is not set."
+            exit 1
           fi
 
-          echo "Attempting to trigger Cloudflare Pages deploy hook..."
-          echo "(This step is currently allowed to fail - see SAFE MODE comment above)"
+          echo "Triggering Cloudflare Pages deploy hook..."
 
           RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "$DEPLOY_HOOK")
           BODY=$(echo "$RESPONSE" | head -n -1)
@@ -75,9 +50,8 @@ jobs:
           echo "HTTP status: $STATUS"
 
           if [[ "$STATUS" != "200" && "$STATUS" != "201" ]]; then
-            echo "::warning::Deploy hook failed with HTTP $STATUS (this is currently expected)"
-            echo "See Cloudflare error 12050 - build configuration issue being investigated."
-            exit 0   # Do not fail the job
+            echo "::error::Deploy hook failed with HTTP $STATUS"
+            exit 1
           fi
 
           echo "✅ Deploy hook triggered successfully."
