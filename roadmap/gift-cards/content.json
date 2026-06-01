@@ -1,8 +1,8 @@
 {
   "en": {
     "title": "Gift cards & coupons — FLIQ",
-    "back": "Back to roadmap",
-    "crumbRoadmap": "On the roadmap",
+    "back": "Go back",
+    "crumbRoadmap": "Payments",
     "crumbPage": "Gift cards & coupons",
     "heroLine1": "Give value,",
     "heroLine2": "beautifully",
@@ -47,8 +47,8 @@
   },
   "sv": {
     "title": "Presentkort & rabattkoder — FLIQ",
-    "back": "Tillbaka till färdplanen",
-    "crumbRoadmap": "På färdplanen",
+    "back": "Tillbaka",
+    "crumbRoadmap": "Betalningar",
     "crumbPage": "Presentkort & rabattkoder",
     "heroLine1": "Ge värde,",
     "heroLine2": "vackert",
