@@ -1,18 +1,17 @@
 name: Publish text → rebuild site
 
-# Runs in the TEXT repo (Avanoro/www-fliqpay-text).
-# When any content JSON changes on main, it (1) purges jsDelivr so the build
-# fetches fresh text, then (2) pings a Cloudflare Pages Deploy Hook to rebuild
-# and redeploy the site (which lives in the other repo and bakes the text in).
+# Körs i TEXT-repot (Avanoro/www-fliqpay-text).
+# När någon content.json ändras på main så:
+# 1. Rensas jsDelivr-cachen
+# 2. Triggas en rebuild av huvudsidan via Cloudflare Deploy Hook
 
 on:
   push:
     branches: [main]
     paths:
-      - "**/*.json"        # only when content changes
-  workflow_dispatch: {}     # allow manual runs from the Actions tab
+      - "**/*.json"
+  workflow_dispatch: {}     # Kan köras manuellt
 
-# Avoid overlapping runs if several pushes land quickly.
 concurrency:
   group: publish-text
   cancel-in-progress: true
@@ -27,16 +26,14 @@ jobs:
       - name: Purge all content.json from jsDelivr
         run: |
           set -euo pipefail
-          # Find every content.json and hit its jsDelivr purge URL.
-          # Purging is idempotent and safe to repeat.
+
           found=0
           while IFS= read -r -d '' f; do
             found=1
-            # strip leading "./"
             rel="${f#./}"
             url="https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/${rel}"
             echo "Purging: $url"
-            # retry a few times; jsDelivr occasionally 429s
+
             for attempt in 1 2 3; do
               code=$(curl -s -o /tmp/purge.out -w "%{http_code}" "$url" || true)
               cat /tmp/purge.out; echo
@@ -45,27 +42,37 @@ jobs:
               sleep 5
             done
           done < <(find . -name 'content.json' -not -path '*/.git/*' -print0)
+
           if [ "$found" = "0" ]; then
             echo "No content.json files found — nothing to purge."
           fi
 
       - name: Wait for purge to propagate
-        run: sleep 20   # give jsDelivr edges a moment before the build fetches
+        run: sleep 20
 
-      - name: Trigger Cloudflare Pages deploy
+      - name: Trigger Cloudflare Pages deploy hook
         env:
           DEPLOY_HOOK: ${{ secrets.CF_PAGES_DEPLOY_HOOK }}
         run: |
           set -euo pipefail
+
           if [ -z "${DEPLOY_HOOK:-}" ]; then
             echo "::error::Secret CF_PAGES_DEPLOY_HOOK is not set."
             exit 1
           fi
-          echo "Pinging Cloudflare Pages deploy hook..."
-          code=$(curl -s -X POST -o /tmp/deploy.out -w "%{http_code}" "$DEPLOY_HOOK")
-          cat /tmp/deploy.out; echo
-          if [ "$code" != "200" ] && [ "$code" != "201" ]; then
-            echo "::error::Deploy hook returned HTTP $code"
+
+          echo "Triggering Cloudflare Pages deploy hook..."
+
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "$DEPLOY_HOOK")
+          BODY=$(echo "$RESPONSE" | head -n -1)
+          STATUS=$(echo "$RESPONSE" | tail -n 1)
+
+          echo "Response body: $BODY"
+          echo "HTTP status: $STATUS"
+
+          if [[ "$STATUS" != "200" && "$STATUS" != "201" ]]; then
+            echo "::error::Deploy hook failed with HTTP $STATUS"
             exit 1
           fi
-          echo "Deploy triggered. Cloudflare Pages will rebuild the site."
+
+          echo "✅ Deploy hook triggered successfully. Cloudflare will now rebuild the site."
