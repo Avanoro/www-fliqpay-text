@@ -1,8 +1,8 @@
 {
   "en": {
     "title": "Invoice payments — FLIQ",
-    "back": "Back to roadmap",
-    "crumbRoadmap": "On the roadmap",
+    "back": "Go back",
+    "crumbRoadmap": "Payments",
     "crumbPage": "Invoice payments",
     "heroLine1": "Request.",
     "heroLine2": "Paid",
@@ -77,8 +77,8 @@
   },
   "sv": {
     "title": "Fakturabetalningar — FLIQ",
-    "back": "Tillbaka till färdplanen",
-    "crumbRoadmap": "På färdplanen",
+    "back": "Tillbaka",
+    "crumbRoadmap": "Betalningar",
     "crumbPage": "Fakturabetalningar",
     "heroLine1": "Begärd.",
     "heroLine2": "Betald",
