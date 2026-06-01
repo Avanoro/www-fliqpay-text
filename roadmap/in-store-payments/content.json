@@ -1,8 +1,8 @@
 {
   "en": {
     "title": "In-store payments — FLIQ",
-    "back": "Back to roadmap",
-    "crumbRoadmap": "On the roadmap",
+    "back": "Go back",
+    "crumbRoadmap": "Payments",
     "crumbPage": "In-store payments",
     "artChapter": "07 · In-store payments",
     "artQ1": "At the counter,",
@@ -48,8 +48,8 @@
   },
   "sv": {
     "title": "Betalningar i butik — FLIQ",
-    "back": "Tillbaka till färdplanen",
-    "crumbRoadmap": "På färdplanen",
+    "back": "Tillbaka",
+    "crumbRoadmap": "Betalningar",
     "crumbPage": "Betalningar i butik",
     "artChapter": "07 · Betalningar i butik",
     "artQ1": "Vid disken,",
