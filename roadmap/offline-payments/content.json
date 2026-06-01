@@ -1,8 +1,8 @@
 {
   "en": {
     "title": "Offline payments — FLIQ",
-    "back": "Back to roadmap",
-    "crumbRoadmap": "On the roadmap",
+    "back": "Go back",
+    "crumbRoadmap": "Payments",
     "crumbPage": "Offline payments",
     "artChapter": "03 · Offline payments",
     "artQ1": "Wherever the signal ends,",
@@ -52,8 +52,8 @@
   },
   "sv": {
     "title": "Offline-betalningar — FLIQ",
-    "back": "Tillbaka till färdplanen",
-    "crumbRoadmap": "På färdplanen",
+    "back": "Tillbaka",
+    "crumbRoadmap": "Betalningar",
     "crumbPage": "Offline-betalningar",
     "artChapter": "03 · Offline-betalningar",
     "artQ1": "Där signalen tar slut,",
