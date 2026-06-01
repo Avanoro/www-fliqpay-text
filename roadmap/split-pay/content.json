@@ -1,8 +1,8 @@
 {
   "en": {
     "title": "Split pay — FLIQ",
-    "back": "Back to roadmap",
-    "crumbRoadmap": "On the roadmap",
+    "back": "Go back",
+    "crumbRoadmap": "Payments",
     "crumbPage": "Split pay",
     "artChapter": "05 · Split pay",
     "artQ1": "A bill,",
@@ -58,8 +58,8 @@
   },
   "sv": {
     "title": "Dela betalning — FLIQ",
-    "back": "Tillbaka till färdplanen",
-    "crumbRoadmap": "På färdplanen",
+    "back": "Tillbaka",
+    "crumbRoadmap": "Betalningar",
     "crumbPage": "Split pay",
     "artChapter": "05 · Split pay",
     "artQ1": "En nota,",
