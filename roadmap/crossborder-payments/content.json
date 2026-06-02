@@ -1,10 +1,10 @@
 {
   "en": {
-    "title": "Crossborder payments — FLIQ",
+    "title": "Cross border payments — FLIQ",
     "back": "Go back",
     "crumbRoadmap": "Payments",
     "crumbPage": "Cross border payments",
-    "artChapter": "02 · Crossborder payments",
+    "artChapter": "02 · Cross border payments",
     "artQ1": "From one country",
     "artQ2": "to the next",
     "artCap": "Stockholm to Berlin to Barcelona — one rail, one rate, no hidden hops.",
@@ -53,7 +53,7 @@
     "footStatus": "Launching Soon"
   },
   "sv": {
-    "title": "Gränsöverskridande betalningar — FLIQ",
+    "title": "Cross border betalningar — FLIQ",
     "back": "Tillbaka",
     "crumbRoadmap": "Betalningar",
     "crumbPage": "Cross border betalningar",
