@@ -1,0 +1,25 @@
+{
+  "en": {
+    "title": "",
+    "description": "Mobile App Developer at FLIQ.",
+    "ogImage": "",
+    "noindex": false
+  },
+  "sv": {
+    "title": "Mobile App Developer — FLIQ",
+    "description": "Mobilapputvecklare på FLIQ.",
+    "ogImage": "",
+    "noindex": false
+  },
+  "_jobPosting": {
+    "title": "Mobile App Developer",
+    "employmentType": "FULL_TIME",
+    "workplace": "HYBRID",
+    "city": "Stockholm",
+    "region": "Stockholm",
+    "country": "SE",
+    "datePosted": "2026-01-01",
+    "validThrough": "",
+    "department": "Engineering"
+  }
+}

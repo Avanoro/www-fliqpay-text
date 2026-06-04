@@ -1,0 +1,25 @@
+{
+  "en": {
+    "title": "",
+    "description": "Full Stack Developer at FLIQ.",
+    "ogImage": "",
+    "noindex": false
+  },
+  "sv": {
+    "title": "Full Stack Developer — FLIQ",
+    "description": "Full Stack-utvecklare på FLIQ.",
+    "ogImage": "",
+    "noindex": false
+  },
+  "_jobPosting": {
+    "title": "Full Stack Developer",
+    "employmentType": "FULL_TIME",
+    "workplace": "HYBRID",
+    "city": "Stockholm",
+    "region": "Stockholm",
+    "country": "SE",
+    "datePosted": "2026-01-01",
+    "validThrough": "",
+    "department": "Engineering"
+  }
+}
