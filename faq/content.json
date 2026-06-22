@@ -28,6 +28,7 @@
     "footBanks": "Supported banks",
     "sections": [
       {
+        "key": "index",
         "heading": "Homepage",
         "items": [
           {
@@ -53,6 +54,7 @@
         ]
       },
       {
+        "key": "roadmap/invoice-payments",
         "heading": "Invoicing",
         "items": [
           {
@@ -78,6 +80,7 @@
         ]
       },
       {
+        "key": "roadmap/crossborder-payments",
         "heading": "Cross-Border Payments",
         "items": [
           {
@@ -103,6 +106,7 @@
         ]
       },
       {
+        "key": "roadmap/offline-payments",
         "heading": "Offline Payments",
         "items": [
           {
@@ -128,6 +132,7 @@
         ]
       },
       {
+        "key": "roadmap/gift-cards",
         "heading": "Gift Cards & Discount Codes",
         "items": [
           {
@@ -153,6 +158,7 @@
         ]
       },
       {
+        "key": "roadmap/split-pay",
         "heading": "SplitPay",
         "items": [
           {
@@ -178,6 +184,7 @@
         ]
       },
       {
+        "key": "roadmap/bonus-system",
         "heading": "Cashback Rewards",
         "items": [
           {
@@ -203,6 +210,7 @@
         ]
       },
       {
+        "key": "roadmap/in-store-payments",
         "heading": "In-Store Payments",
         "items": [
           {
@@ -228,6 +236,7 @@
         ]
       },
       {
+        "key": "roadmap/start-accepting",
         "heading": "Start Accepting Payments",
         "items": [
           {
@@ -283,6 +292,7 @@
     "footBanks": "Banker som stöds",
     "sections": [
       {
+        "key": "index",
         "heading": "Startsidan",
         "items": [
           {
@@ -308,6 +318,7 @@
         ]
       },
       {
+        "key": "roadmap/invoice-payments",
         "heading": "Faktura",
         "items": [
           {
@@ -333,6 +344,7 @@
         ]
       },
       {
+        "key": "roadmap/crossborder-payments",
         "heading": "Mellan länder",
         "items": [
           {
@@ -358,6 +370,7 @@
         ]
       },
       {
+        "key": "roadmap/offline-payments",
         "heading": "Offline",
         "items": [
           {
@@ -383,6 +396,7 @@
         ]
       },
       {
+        "key": "roadmap/gift-cards",
         "heading": "Presentkort & rabattkoder",
         "items": [
           {
@@ -408,6 +422,7 @@
         ]
       },
       {
+        "key": "roadmap/split-pay",
         "heading": "Splitpay",
         "items": [
           {
@@ -433,6 +448,7 @@
         ]
       },
       {
+        "key": "roadmap/bonus-system",
         "heading": "Bonus",
         "items": [
           {
@@ -458,6 +474,7 @@
         ]
       },
       {
+        "key": "roadmap/in-store-payments",
         "heading": "Betalningar i butik",
         "items": [
           {
@@ -483,6 +500,7 @@
         ]
       },
       {
+        "key": "roadmap/start-accepting",
         "heading": "Börja ta emot betalningar",
         "items": [
           {
