@@ -1,0 +1,512 @@
+{
+  "en": {
+    "title": "FAQ — FLIQ",
+    "back": "Back to home",
+    "crumbHome": "FLIQ",
+    "crumbPage": "Frequently asked questions",
+    "heroLine1": "Questions,",
+    "heroLine1b": "clearly ",
+    "heroLine2": "answered",
+    "heroLede": "Everything you wanted to know about FLIQ — onboarding, payments, payouts, and the rails behind it all.",
+    "loading": "Loading…",
+    "ctaH1": "Didn't find your ",
+    "ctaH2": "answer",
+    "ctaP": "Drop us a line and we'll get back to you within 48 hours.",
+    "ctaBtn": "info@fliqpayments.com",
+    "footSub": "A new generation of payments — Nordic in spirit, European in reach.",
+    "footCompany": "Company",
+    "footAbout": "About",
+    "footWaitlist": "Waitlist",
+    "footCareers": "Careers",
+    "footPress": "Press",
+    "footLegal": "Legal",
+    "footPrivacy": "Privacy",
+    "footTerms": "Terms",
+    "footSocial": "Social",
+    "footContact": "Contact",
+    "footFaq": "FAQ",
+    "footBanks": "Supported banks",
+    "sections": [
+      {
+        "heading": "Homepage",
+        "items": [
+          {
+            "q": "What is FLIQ?",
+            "a": "FLIQ is a modern payment platform built for the Nordics and designed for Europe. It delivers fast, intelligent, and secure payments for both individuals and businesses — without unnecessary friction."
+          },
+          {
+            "q": "What does FLIQ stand for?",
+            "a": "FLIQ stands for Fast, Loyal, Intelligent, and Quality — four core values that shape how the entire platform is built and experienced."
+          },
+          {
+            "q": "What payment features does FLIQ offer?",
+            "a": "FLIQ currently offers invoice payments (live today), with upcoming features including cross-border payments, offline payments, Gift Cards & Discount Codes, SplitPay, Cashback Rewards, in-store payments, and a seamless onboarding experience for accepting payments."
+          },
+          {
+            "q": "Is FLIQ available to everyone today?",
+            "a": "Invoice payments are already live in Sweden. All other features are currently under development, and you can join the waitlist to be among the first to gain access when they launch."
+          },
+          {
+            "q": "Where is FLIQ based, and which markets does it serve?",
+            "a": "FLIQ was founded in Stockholm, Sweden, and is designed for the entire Nordic region with a long-term vision for Europe. The company behind FLIQ is Avanoro AB."
+          }
+        ]
+      },
+      {
+        "heading": "Invoicing",
+        "items": [
+          {
+            "q": "Do I need a credit card to pay an invoice with FLIQ?",
+            "a": "No. No credit card is required. You pay directly from your Swedish bank account — personal or business — without intermediaries."
+          },
+          {
+            "q": "How quickly is an invoice payment settled through FLIQ?",
+            "a": "Payments settle within seconds. The moment the recipient confirms the payment, the invoice is considered paid."
+          },
+          {
+            "q": "Who are FLIQ's invoice payments designed for?",
+            "a": "The solution is designed for everyone — from freelancers who want same-day payments, to small businesses looking to avoid payment reminders, to larger teams that want accounting records to reconcile automatically."
+          },
+          {
+            "q": "Does FLIQ automatically handle VAT and invoice archiving?",
+            "a": "Yes. E-invoicing, VAT handling, and invoice archiving are managed automatically in the background in accordance with EU regulations, allowing you to focus on running your business."
+          },
+          {
+            "q": "What happens if a customer pays late? Does FLIQ send reminders?",
+            "a": "Yes. FLIQ sends friendly automated reminders and only escalates when truly necessary. The system is designed to protect and preserve customer relationships."
+          }
+        ]
+      },
+      {
+        "heading": "Cross-Border Payments",
+        "items": [
+          {
+            "q": "Which countries can I send money to with FLIQ?",
+            "a": "FLIQ will launch in Sweden first and then expand across the Nordics and the rest of the EU. Additional countries will be added as the platform grows."
+          },
+          {
+            "q": "Are there any hidden fees for international payments?",
+            "a": "No. FLIQ offers fair exchange rates with no hidden intermediaries or surprise fees — payments move through a single, streamlined infrastructure."
+          },
+          {
+            "q": "How many steps does it take to make a cross-border payment?",
+            "a": "Just one. Payments settle directly through FLIQ's payment infrastructure without requiring multiple intermediaries."
+          },
+          {
+            "q": "Are cross-border payments available right now?",
+            "a": "No. This feature is not live yet. You can join the waitlist to be notified when your country becomes available."
+          },
+          {
+            "q": "Why is FLIQ launching in Sweden first instead of across Europe?",
+            "a": "FLIQ has chosen a controlled and stable rollout strategy, starting in Sweden, ensuring quality and reliability before expanding step by step throughout the Nordics and the wider EU."
+          }
+        ]
+      },
+      {
+        "heading": "Offline Payments",
+        "items": [
+          {
+            "q": "Do FLIQ payments work without an internet connection?",
+            "a": "Yes. FLIQ's offline payment functionality allows payments to be initiated even without a signal — whether you're on a train, in a basement venue, or in an area with no coverage at all."
+          },
+          {
+            "q": "What happens if I'm offline when making a payment? Is it secure?",
+            "a": "The transaction is securely recorded on the device and completed automatically as soon as connectivity returns. The payment experience remains seamless, even when you're offline."
+          },
+          {
+            "q": "Are offline payments compliant and traceable?",
+            "a": "Yes. Every offline transaction is designed to be fully compliant and traceable, just like a standard online payment."
+          },
+          {
+            "q": "Do I need a credit card to use offline payments?",
+            "a": "No. Offline payments are linked to your bank account, not credit, making them accessible to anyone with a bank account."
+          },
+          {
+            "q": "Are offline payments available today?",
+            "a": "No. The feature is currently under development. Join the waitlist to be notified when offline payments become available."
+          }
+        ]
+      },
+      {
+        "heading": "Gift Cards & Discount Codes",
+        "items": [
+          {
+            "q": "What are Gift Cards in FLIQ?",
+            "a": "FLIQ Gift Cards are digital gifts that recipients can easily receive, save, and redeem with any merchant that accepts FLIQ — online or in-store."
+          },
+          {
+            "q": "How do I send a Gift Card through FLIQ?",
+            "a": "Gift Cards can be sent instantly through FLIQ and are designed to be a simple and thoughtful digital gift."
+          },
+          {
+            "q": "Can Gift Cards be used at any store?",
+            "a": "Gift Cards can be redeemed with any merchant that accepts FLIQ, both online and in physical locations."
+          },
+          {
+            "q": "What benefits do businesses gain from listing their Gift Cards in FLIQ?",
+            "a": "Businesses can reach new audiences and turn their brand into a giftable asset without additional effort. Gift Cards are available within the FLIQ ecosystem and are ready to be sent and redeemed."
+          },
+          {
+            "q": "Are Gift Cards and Discount Codes available today?",
+            "a": "No. This feature is coming soon. Join the waitlist to gain access when it launches."
+          }
+        ]
+      },
+      {
+        "heading": "SplitPay",
+        "items": [
+          {
+            "q": "What is SplitPay in FLIQ?",
+            "a": "SplitPay is a feature that allows you to split a bill in seconds — either evenly among everyone or based on what each person ordered — directly from the FLIQ app."
+          },
+          {
+            "q": "Can I customize how the bill is split?",
+            "a": "Yes. You can split the bill equally (calculated automatically by FLIQ) or assign individual items to specific people if you prefer to split based on what each person ate or drank."
+          },
+          {
+            "q": "Is SplitPay linked to the original receipt?",
+            "a": "Yes. Each share is connected to the original receipt, ensuring that refunds and disputes are automatically handled for the correct person."
+          },
+          {
+            "q": "Do I need paper, a calculator, or spreadsheets to split a bill?",
+            "a": "No. SplitPay handles all calculations automatically, eliminating awkward math at the table."
+          },
+          {
+            "q": "Is SplitPay available today?",
+            "a": "No. The feature is currently under development. You can join the FLIQ waitlist to be among the first to try it when it launches."
+          }
+        ]
+      },
+      {
+        "heading": "Cashback Rewards",
+        "items": [
+          {
+            "q": "How does FLIQ's Cashback Rewards program work?",
+            "a": "FLIQ's Cashback Rewards program gives you honest cashback on your purchases — a clear percentage back on the things you already buy, without complicated tiers, gimmicks, or fine print."
+          },
+          {
+            "q": "Are rewards converted into points that must be redeemed for specific products?",
+            "a": "No. Earned rewards are credited directly to your balance and can be spent whenever and wherever you choose. It's your money, not restricted points."
+          },
+          {
+            "q": "Do rewards or cashback expire if I don't use them quickly?",
+            "a": "No. Your cashback never expires and never disappears. FLIQ won't pressure you to spend it — it stays there until you decide to use it."
+          },
+          {
+            "q": "Does the FLIQ rewards program include hidden conditions or dark patterns?",
+            "a": "No. FLIQ is committed to transparency. There is no fine print, no manipulative mechanics, and no unnecessary conditions — just straightforward cashback."
+          },
+          {
+            "q": "Is the rewards program available today?",
+            "a": "No. The feature is currently under development. Join the waitlist to be notified when it launches."
+          }
+        ]
+      },
+      {
+        "heading": "In-Store Payments",
+        "items": [
+          {
+            "q": "How do I accept in-store payments with FLIQ?",
+            "a": "You can accept payments directly through the FLIQ app on your phone or through traditional card terminals — giving you the flexibility to choose what works best for your business."
+          },
+          {
+            "q": "Is FLIQ's in-store solution suitable for smaller businesses such as food trucks and salons?",
+            "a": "Yes. The solution is designed for businesses of all sizes — from salons to food trucks. In many cases, your phone can act as your payment terminal."
+          },
+          {
+            "q": "How are receipts handled when customers pay in-store with FLIQ?",
+            "a": "Digital receipts are automatically delivered to the customer, while refunds and returns are automatically linked to the original receipt."
+          },
+          {
+            "q": "Can customers make contactless payments in-store with FLIQ?",
+            "a": "Yes. FLIQ supports contactless payments through the app, making transactions simple for both merchants and customers."
+          },
+          {
+            "q": "Are in-store payments available today?",
+            "a": "No. This feature is coming soon. Join the waitlist to be notified when in-store payments become available."
+          }
+        ]
+      },
+      {
+        "heading": "Start Accepting Payments",
+        "items": [
+          {
+            "q": "How long does it take to start accepting payments with FLIQ?",
+            "a": "Onboarding takes only a few minutes, and most businesses are up and running in under ten minutes. The process is designed as a streamlined flow that only asks for information required by regulators."
+          },
+          {
+            "q": "Does FLIQ handle KYC and AML checks automatically?",
+            "a": "Yes. Identity verification, ownership verification, and AML compliance are handled automatically in the background by FLIQ. You see a simple onboarding experience while the rest is taken care of behind the scenes."
+          },
+          {
+            "q": "Is there a lot of paperwork required to get started?",
+            "a": "No. The onboarding process is completely digital and paperless — from your first sale to your first payout."
+          },
+          {
+            "q": "How quickly will I receive payouts to my account?",
+            "a": "Standard payouts are processed the next business day. Real-time payouts are available for businesses that need immediate access to funds."
+          },
+          {
+            "q": "Is it possible to start accepting payments through FLIQ today?",
+            "a": "This feature is currently under development. Join the waitlist and FLIQ will notify you when onboarding for payment acceptance becomes available."
+          }
+        ]
+      }
+    ]
+  },
+  "sv": {
+    "title": "Vanliga frågor — FLIQ",
+    "back": "Tillbaka till start",
+    "crumbHome": "FLIQ",
+    "crumbPage": "Vanliga frågor",
+    "heroLine1": "Frågor,",
+    "heroLine1b": "tydligt ",
+    "heroLine2": "besvarade",
+    "heroLede": "Allt du undrat över FLIQ — onboarding, betalningar, utbetalningar och skenan bakom allt.",
+    "loading": "Hämtar…",
+    "ctaH1": "Hittade du inte ditt ",
+    "ctaH2": "svar",
+    "ctaP": "Skicka en rad så hör vi av oss inom 48 timmar.",
+    "ctaBtn": "info@fliqpayments.com",
+    "footSub": "En ny generation betalningar — nordisk till själen, europeisk i räckvidd.",
+    "footCompany": "Företag",
+    "footAbout": "Om oss",
+    "footWaitlist": "Väntelista",
+    "footCareers": "Karriär",
+    "footPress": "Press",
+    "footLegal": "Juridik",
+    "footPrivacy": "Integritet",
+    "footTerms": "Villkor",
+    "footSocial": "Sociala medier",
+    "footContact": "Kontakt",
+    "footFaq": "Vanliga frågor",
+    "footBanks": "Banker som stöds",
+    "sections": [
+      {
+        "heading": "Startsidan",
+        "items": [
+          {
+            "q": "Vad är FLIQ?",
+            "a": "FLIQ är en modern betalningsplattform byggd för Norden och designad för Europa. Den erbjuder snabba, intelligenta och säkra betalningar för både privatpersoner och företag — utan onödig friktion."
+          },
+          {
+            "q": "Vad betyder förkortningen FLIQ?",
+            "a": "FLIQ står för Fast (snabb), Loyal (lojal), Intelligent och Quality (kvalitet) — fyra kärnvärden som styr hur hela plattformen är byggd och upplevs."
+          },
+          {
+            "q": "Vilka betalningsfunktioner erbjuder FLIQ?",
+            "a": "FLIQ erbjuder fakturabetalningar (live nu), samt kommande funktioner som betalningar mellan länder, offline-betalningar, presentkort & rabattkoder, Splitpay, bonussystem, betalningar i butik och enkel onboarding för att börja ta emot betalningar."
+          },
+          {
+            "q": "Är FLIQ tillgängligt för alla idag?",
+            "a": "Fakturabetalningar är live i Sverige redan idag. Övriga funktioner är under utveckling och man kan gå med i väntelistan för att vara bland de första att få tillgång när de lanseras."
+          },
+          {
+            "q": "Var är FLIQ baserat och vilket geografiskt område riktar det sig mot?",
+            "a": "FLIQ är grundat i Stockholm, Sverige, och är designat för hela Norden med sikte på Europa. Bolaget bakom heter Avanoro AB."
+          }
+        ]
+      },
+      {
+        "heading": "Faktura",
+        "items": [
+          {
+            "q": "Behöver jag ett kreditkort för att betala en faktura med FLIQ?",
+            "a": "Nej, inget kreditkort krävs. Du betalar direkt från ditt svenska bankkonto — privat eller företag — utan mellansteg."
+          },
+          {
+            "q": "Hur snabbt avräknas en fakturabetalning via FLIQ?",
+            "a": "Betalningen avräknas på sekunder. I samma stund mottagaren bekräftar betalningen är fakturan reglerad."
+          },
+          {
+            "q": "Vem passar FLIQ:s fakturabetalningar för?",
+            "a": "Lösningen passar alla — från frilansare som vill bli betalda samma dag, till småföretag som vill slippa betalningspåminnelser, till större team som behöver böcker som balanserar sig automatiskt."
+          },
+          {
+            "q": "Hanterar FLIQ moms och arkivering av fakturor automatiskt?",
+            "a": "Ja, e-fakturering, moms och arkivering sköts automatiskt i bakgrunden — i enlighet med EU-regler — så att du kan fokusera på din verksamhet."
+          },
+          {
+            "q": "Vad händer om en kund inte betalar i tid — skickar FLIQ påminnelser?",
+            "a": "Ja, FLIQ skickar vänliga automatiska påminnelser och eskalerar bara när det verkligen behövs. Systemet är designat för att skydda affärsrelationen."
+          }
+        ]
+      },
+      {
+        "heading": "Mellan länder",
+        "items": [
+          {
+            "q": "Vilka länder kan jag skicka pengar till med FLIQ?",
+            "a": "FLIQ lanserar i Sverige först och expanderar sedan till Norden och resten av EU. Fler länder tillkommer i takt med att plattformen växer."
+          },
+          {
+            "q": "Finns det dolda avgifter vid betalningar mellan länder?",
+            "a": "Nej, FLIQ erbjuder rättvisa kurser utan dolda mellansteg eller överraskande avgifter — pengar rör sig på en och samma skena."
+          },
+          {
+            "q": "Hur många steg tar det att genomföra en betalning mellan länder?",
+            "a": "Bara ett steg — direktavräkning sker på FLIQ:s egna betalningsskena, utan att du behöver gå via flera mellanhänder."
+          },
+          {
+            "q": "Är FLIQ:s betalningar mellan länder tillgängliga just nu?",
+            "a": "Nej, funktionen är inte live ännu. Du kan gå med i väntelistan för att få besked när ditt land läggs till."
+          },
+          {
+            "q": "Varför börjar FLIQ i Sverige och inte i hela Europa direkt?",
+            "a": "FLIQ väljer en kontrollerad och stabil lansering genom att börja i Sverige, säkerställa kvaliteten och sedan expandera steg för steg till Norden och övriga EU."
+          }
+        ]
+      },
+      {
+        "heading": "Offline",
+        "items": [
+          {
+            "q": "Fungerar FLIQ-betalningar utan internetuppkoppling?",
+            "a": "Ja, FLIQ:s offline-funktion gör att betalningar kan genomföras även utan signal — oavsett om du är på tåget, i en källarlokal eller i ett område helt utan täckning."
+          },
+          {
+            "q": "Vad händer med betalningen om jag är offline — är den säker?",
+            "a": "Transaktionen fångas direkt på enheten och slutförs automatiskt så snart uppkopplingen återvänder. Betalningen är verklig i samma stund den sker."
+          },
+          {
+            "q": "Är offline-betalningar regelefterlevande och spårbara?",
+            "a": "Ja, varje offline-transaktion är fullt regelefterlevande och spårbar — precis som en vanlig onlinebetalning."
+          },
+          {
+            "q": "Krävs det ett kreditkort för att använda offline-betalningar?",
+            "a": "Nej, offline-betalningarna bygger på ditt bankkonto inte kredit, vilket gör dem tillgängliga för alla med ett konto."
+          },
+          {
+            "q": "Är offline-betalningar tillgängliga idag?",
+            "a": "Nej, funktionen är under utveckling. Gå med i väntelistan så får du besked när offline-betalningar lanseras."
+          }
+        ]
+      },
+      {
+        "heading": "Presentkort & rabattkoder",
+        "items": [
+          {
+            "q": "Vad är presentkort i FLIQ?",
+            "a": "Presentkort i FLIQ är digitala gåvor som mottagaren enkelt kan ta emot, spara i FLIQ-plånboken och använda hos alla FLIQ-accepterande handlare — online eller i butik."
+          },
+          {
+            "q": "Hur skickar jag ett presentkort via FLIQ?",
+            "a": "Presentkort skickas på sekunder direkt via FLIQ — designat för att vara en enkel och genomtänkt digital gåva."
+          },
+          {
+            "q": "Går det att använda presentkort hos alla butiker?",
+            "a": "Presentkort kan lösas in hos alla handlare som accepterar FLIQ, både online och fysiskt."
+          },
+          {
+            "q": "Vad tjänar företag på att lista sina presentkort i FLIQ?",
+            "a": "Företag kan nå nya målgrupper och förvandla sina varumärken till värde som kan ges bort — utan extra arbete. Presentkorten listas i FLIQ-plånboken och är redo att skickas och lösas in."
+          },
+          {
+            "q": "Är presentkort och rabattkoder tillgängliga nu?",
+            "a": "Nej, funktionen är kommande. Gå med i väntelistan för att få tillgång när den lanseras."
+          }
+        ]
+      },
+      {
+        "heading": "Splitpay",
+        "items": [
+          {
+            "q": "Vad är Splitpay i FLIQ?",
+            "a": "Splitpay är en funktion som låter dig dela en nota på sekunder — antingen jämnt mellan alla eller per vad varje person beställde — direkt från FLIQ-appen."
+          },
+          {
+            "q": "Kan jag anpassa hur notan delas?",
+            "a": "Ja, du kan antingen dela lika (FLIQ räknar automatiskt) eller dra enskilda poster till specifika personer om ni vill dela efter vad var och en åt eller drack."
+          },
+          {
+            "q": "Är Splitpay kopplat till det ursprungliga kvittot?",
+            "a": "Ja, varje andel är kopplad till originalkvittot, vilket innebär att returer och reklamationer hanteras automatiskt för rätt person."
+          },
+          {
+            "q": "Behövs papper, miniräknare eller kalkylblad för att dela notan?",
+            "a": "Nej, Splitpay hanterar all matematik automatiskt — ingen pinsam uträkning vid bordet."
+          },
+          {
+            "q": "Är Splitpay tillgängligt att använda idag?",
+            "a": "Nej, funktionen är under utveckling. Du kan gå med i FLIQ:s väntelista för att vara bland de första att prova när den lanseras."
+          }
+        ]
+      },
+      {
+        "heading": "Bonus",
+        "items": [
+          {
+            "q": "Hur fungerar bonussystemet i FLIQ?",
+            "a": "FLIQ:s bonussystem ger dig ärlig cashback på dina köp — en tydlig procent tillbaka på det du ändå skulle köpa, utan krångliga nivåspel eller finstilt."
+          },
+          {
+            "q": "Går bonusen till poäng som sedan måste lösas in mot specifika varor?",
+            "a": "Nej, intjänat värde går direkt till ditt saldo och kan spenderas var du vill och när du vill — det är dina pengar, inte poäng med begränsningar."
+          },
+          {
+            "q": "Förfaller bonus eller cashback om jag inte använder den snabbt?",
+            "a": "Nej, bonusen har ingen giltighetstid och försvinner inte. FLIQ puffar dig inte att spendera den, för den finns kvar tills du väljer att använda den."
+          },
+          {
+            "q": "Innehåller FLIQ:s bonus några dolda villkor eller \"dark patterns\"?",
+            "a": "Nej, FLIQ är tydliga med att det inte finns någon finstilt, inga manipulativa mekanismer och inga onödiga villkor — bara transparent cashback."
+          },
+          {
+            "q": "Är bonussystemet tillgängligt nu?",
+            "a": "Nej, det är under utveckling. Gå med i väntelistan för att få besked när bonussystemet lanseras."
+          }
+        ]
+      },
+      {
+        "heading": "Betalningar i butik",
+        "items": [
+          {
+            "q": "Hur tar jag emot betalningar i butik med FLIQ?",
+            "a": "Du kan acceptera betalningar direkt via FLIQ-appen i din telefon eller med klassiska kortterminaler — flexibelt anpassat för din verksamhet."
+          },
+          {
+            "q": "Passar FLIQ:s butikslösning även för mindre verksamheter som food trucks och salonger?",
+            "a": "Ja, lösningen är designad för alla typer av verksamheter — från salongen till food trucken. Telefonen i förklädet kan fungera som din terminal."
+          },
+          {
+            "q": "Hur hanteras kvitton när kunder betalar i butik med FLIQ?",
+            "a": "Digitala kvitton skickas automatiskt till kundens FLIQ-plånbok, och returer samt återbetalningar kopplas automatiskt till originalkvittot."
+          },
+          {
+            "q": "Kan kunder betala kontaktlöst i butik med FLIQ?",
+            "a": "Ja, FLIQ stöder kontaktlösa betalningar via appen — enkelt för både handlare och kund."
+          },
+          {
+            "q": "Är betalningar i butik tillgängligt idag?",
+            "a": "Nej, funktionen är kommande. Gå med i väntelistan för att få besked när betalningar i butik lanseras."
+          }
+        ]
+      },
+      {
+        "heading": "Börja ta emot betalningar",
+        "items": [
+          {
+            "q": "Hur lång tid tar det att komma igång och börja ta emot betalningar via FLIQ?",
+            "a": "Onboardingen tar bara några minuter — de flesta är live på under tio minuter. Det är utformat som ett stillsamt flöde som bara frågar det som reglerare faktiskt kräver."
+          },
+          {
+            "q": "Hanterar FLIQ KYC och AML-kontroller automatiskt?",
+            "a": "Ja, identitetskontroll, ägarverifiering och AML sköts i bakgrunden av FLIQ. Du ser bara en enkel skärm — resten hanteras automatiskt."
+          },
+          {
+            "q": "Krävs det mycket pappersarbete för att komma igång?",
+            "a": "Nej, onboardingen är helt digital och pappersfri — från första försäljning till första utbetalning utan något pappersarbete."
+          },
+          {
+            "q": "Hur snabbt får jag pengarna utbetalda till mitt konto?",
+            "a": "Utbetalning sker nästa dag som standard. Realtidsutbetalningar finns tillgängligt för de som behöver pengarna direkt."
+          },
+          {
+            "q": "Är det möjligt att börja ta emot betalningar via FLIQ redan nu?",
+            "a": "Funktionen är under utveckling. Gå med i väntelistan så hör FLIQ av sig när onboarding för att ta emot betalningar öppnar upp."
+          }
+        ]
+      }
+    ]
+  }
+}
