@@ -64,7 +64,8 @@
     "optOnPay": "hook the pay action to run your own flow instead of the default bank redirect.",
     "optHeader": "show the FLIQ header — logo, language and light/dark toggle.",
     "optSignup": "show the consumer sign-up band under the pay form.",
-    "optAccent": "tint the hero to your brand — try a colour:"
+    "optAccent": "tint the hero to your brand — try a colour:",
+    "embedResize": "Drag the bottom-right corner to resize — the widget reflows to fit."
   },
   "sv": {
     "title": "Bli partner — FLIQ",
@@ -131,6 +132,7 @@
     "optOnPay": "koppla betala-knappen till ditt eget flöde istället för standard-bankredirecten.",
     "optHeader": "visa FLIQ-headern — logga, språk och ljus/mörk-växel.",
     "optSignup": "visa skapa-konto-fältet under betalformuläret.",
-    "optAccent": "tona hero-ytan till din brand — prova en färg:"
+    "optAccent": "tona hero-ytan till din brand — prova en färg:",
+    "embedResize": "Dra i nedre högra hörnet för att ändra storlek — widgeten anpassar sig."
   }
 }
