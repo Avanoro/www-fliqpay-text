@@ -52,7 +52,16 @@
     "footSocial": "Social",
     "footContact": "Contact",
     "footFaq": "FAQ",
-    "footBanks": "Supported banks"
+    "footBanks": "Supported banks",
+    "embedH1": "Or embed it ",
+    "embedH2": "right in your app",
+    "embedLede": "Two ways to collect: send payers to the hosted page, or drop our JavaScript widget straight into your own checkout. One script and one mount call renders the amount, reference, bank picker and live status — CSS-isolated in a shadow root.",
+    "embedLabel": "Embed",
+    "embedDemoCap": "↑ The real widget, running live on this page (demo mode).",
+    "optOrderId": "the payment-order id from your create call — the widget loads its live amount, reference and status.",
+    "optShadow": "renders inside a shadow root so your CSS and ours never collide.",
+    "optChrome": "toggle the FLIQ header and consumer sign-up band to fit your layout.",
+    "optOnPay": "hook the pay action to run your own flow instead of the default bank redirect."
   },
   "sv": {
     "title": "Bli partner — FLIQ",
@@ -107,6 +116,15 @@
     "footSocial": "Sociala medier",
     "footContact": "Kontakt",
     "footFaq": "Vanliga frågor",
-    "footBanks": "Banker som stöds"
+    "footBanks": "Banker som stöds",
+    "embedH1": "Eller bädda in den ",
+    "embedH2": "direkt i din app",
+    "embedLede": "Två sätt att ta betalt: skicka betalaren till den hostade sidan, eller lägg vår JavaScript-widget direkt i din egen kassa. Ett script och ett mount-anrop renderar belopp, referens, bankväljare och livestatus — CSS-isolerat i en shadow root.",
+    "embedLabel": "Inbäddning",
+    "embedDemoCap": "↑ Den riktiga widgeten, live på den här sidan (demoläge).",
+    "optOrderId": "betalorderns id från ditt create-anrop — widgeten laddar dess belopp, referens och status live.",
+    "optShadow": "renderas i en shadow root så att din CSS och vår aldrig krockar.",
+    "optChrome": "slå av/på FLIQ-headern och konsumentens skapa-konto-fält så det passar din layout.",
+    "optOnPay": "koppla betala-knappen till ditt eget flöde istället för standard-bankredirecten."
   }
 }
