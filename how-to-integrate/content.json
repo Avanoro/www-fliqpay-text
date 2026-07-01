@@ -61,7 +61,9 @@
     "optOrderId": "the payment-order id from your create call — the widget loads its live amount, reference and status.",
     "optShadow": "renders inside a shadow root so your CSS and ours never collide.",
     "optChrome": "toggle the FLIQ header and consumer sign-up band to fit your layout.",
-    "optOnPay": "hook the pay action to run your own flow instead of the default bank redirect."
+    "optOnPay": "hook the pay action to run your own flow instead of the default bank redirect.",
+    "optHeader": "show the FLIQ header — logo, language and light/dark toggle.",
+    "optSignup": "show the consumer sign-up band under the pay form."
   },
   "sv": {
     "title": "Bli partner — FLIQ",
@@ -125,6 +127,8 @@
     "optOrderId": "betalorderns id från ditt create-anrop — widgeten laddar dess belopp, referens och status live.",
     "optShadow": "renderas i en shadow root så att din CSS och vår aldrig krockar.",
     "optChrome": "slå av/på FLIQ-headern och konsumentens skapa-konto-fält så det passar din layout.",
-    "optOnPay": "koppla betala-knappen till ditt eget flöde istället för standard-bankredirecten."
+    "optOnPay": "koppla betala-knappen till ditt eget flöde istället för standard-bankredirecten.",
+    "optHeader": "visa FLIQ-headern — logga, språk och ljus/mörk-växel.",
+    "optSignup": "visa skapa-konto-fältet under betalformuläret."
   }
 }
