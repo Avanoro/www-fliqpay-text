@@ -73,7 +73,22 @@
     "rowPayH": "Or drop the pay button into your checkout",
     "rowPayP": "One mount call renders the amount and a bank picker right on your page. The payer picks their bank and confirms the transfer — straight from their account.",
     "rowWhH": "Real-time status, signed",
-    "rowWhP": "We POST an HMAC-signed event on every change — CREATED → RESERVED → PAID — so your system always knows where the payment stands."
+    "rowWhP": "We POST an HMAC-signed event on every change — CREATED → RESERVED → PAID — so your system always knows where the payment stands.",
+    "crumbAuto": "Automation",
+    "crumbCheckout": "Checkout",
+    "crumbSecure": "Security",
+    "autoH1": "Integrate to automate ",
+    "autoH2": "payment orders",
+    "autoLede": "One authenticated POST creates a payment order — amount, merchant and reference. You get back an order id, a live status and a hosted pay URL. That's the whole integration.",
+    "checkoutH1": "A checkout button ",
+    "checkoutH2": "for every occasion",
+    "checkoutLede": "The same payment, two ways to collect. A compact button that drops into a webshop or checkout flow — or the full widget, made for invoices, embedded right on the invoice sender's own page.",
+    "viewBtnH": "Compact pay button",
+    "viewBtnP": "For webshops and checkout flows. It shows the amount and opens a bank picker in place — the payer confirms the transfer straight from their account, without leaving your page.",
+    "viewWidgetH": "Full pay widget",
+    "viewWidgetP": "Made for invoices. Embed it on your own digital invoice page — it shows the amount, the reference and live status, and reflows to any width you give it.",
+    "statusH": "Automatic statuses — for you and your customer",
+    "statusLede": "Both the button and the widget report the same live status — and we POST an HMAC-signed webhook on every change, so your system stays in sync automatically."
   },
   "sv": {
     "title": "Bli partner — FLIQ",
@@ -149,6 +164,21 @@
     "rowPayH": "Eller lägg betalknappen i din kassa",
     "rowPayP": "Ett mount-anrop renderar belopp och bankväljare direkt på din sida. Betalaren väljer bank och godkänner överföringen — direkt från kontot.",
     "rowWhH": "Status i realtid, signerat",
-    "rowWhP": "Vi skickar ett HMAC-signerat event vid varje ändring — CREATED → RESERVED → PAID — så ditt system alltid vet var betalningen står."
+    "rowWhP": "Vi skickar ett HMAC-signerat event vid varje ändring — CREATED → RESERVED → PAID — så ditt system alltid vet var betalningen står.",
+    "crumbAuto": "Automatisering",
+    "crumbCheckout": "Checkout",
+    "crumbSecure": "Trygghet",
+    "autoH1": "Integrera för automatisering ",
+    "autoH2": "av betalordrar",
+    "autoLede": "Ett autentiserat POST skapar en betalorder — belopp, merchant och referens. Du får tillbaka ett order-id, en live-status och en hostad betal-URL. Det är hela integrationen.",
+    "checkoutH1": "En checkout-knapp ",
+    "checkoutH2": "för alla tillfällen",
+    "checkoutLede": "Samma betalning, två sätt att ta betalt. En kompakt knapp som passar i en webshop eller ett kassaflöde — eller hela widgeten, gjord för fakturor, inbäddad direkt på fakturaavsändarens egen sida.",
+    "viewBtnH": "Kompakt betalknapp",
+    "viewBtnP": "För webshoppar och kassaflöden. Den visar beloppet och öppnar en bankväljare på plats — betalaren godkänner överföringen direkt från sitt konto, utan att lämna din sida.",
+    "viewWidgetH": "Fullstor betalwidget",
+    "viewWidgetP": "Gjord för fakturor. Bädda in den på din egen digitala fakturasida — den visar belopp, referens och livestatus och anpassar sig till valfri bredd.",
+    "statusH": "Automatiska statusar — för både dig och din kund",
+    "statusLede": "Både knappen och widgeten visar samma livestatus — och vi skickar ett HMAC-signerat webhook-event vid varje ändring, så ditt system hålls synkat automatiskt."
   }
 }
