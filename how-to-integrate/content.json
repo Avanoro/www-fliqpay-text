@@ -55,7 +55,7 @@
     "footBanks": "Supported banks",
     "embedH1": "Or embed it ",
     "embedH2": "right in your app",
-    "embedLede": "Two ways to collect: send payers to the hosted page, or drop our JavaScript widget straight into your own checkout. One script and one mount call renders the amount, reference, bank picker and live status — CSS-isolated in a shadow root.",
+    "embedLede": "Prefer to keep the payer on your own page? Drop the widget straight into your checkout: one script tag and one FliqPay.mount() call renders the amount, bank picker and live status — isolated in a shadow root so it never clashes with your styling. Drag it to see it reflow to any width.",
     "embedLabel": "Embed",
     "embedDemoCap": "↑ The real widget, running live on this page (demo mode).",
     "optOrderId": "the payment-order id from your create call — the widget loads its live amount, reference and status.",
@@ -73,7 +73,7 @@
     "rowPayH": "Or drop the pay button into your checkout",
     "rowPayP": "One mount call renders the amount and a bank picker right on your page. The payer picks their bank and confirms the transfer — straight from their account.",
     "rowWhH": "Real-time status, signed",
-    "rowWhP": "We POST an HMAC-signed event on every change — CREATED → PENDING → SETTLED — so your system always knows where the payment stands."
+    "rowWhP": "We POST an HMAC-signed event on every change — CREATED → RESERVED → PAID — so your system always knows where the payment stands."
   },
   "sv": {
     "title": "Bli partner — FLIQ",
@@ -131,7 +131,7 @@
     "footBanks": "Banker som stöds",
     "embedH1": "Eller bädda in den ",
     "embedH2": "direkt i din app",
-    "embedLede": "Två sätt att ta betalt: skicka betalaren till den hostade sidan, eller lägg vår JavaScript-widget direkt i din egen kassa. Ett script och ett mount-anrop renderar belopp, referens, bankväljare och livestatus — CSS-isolerat i en shadow root.",
+    "embedLede": "Vill du hålla betalaren kvar på din egen sida? Lägg widgeten direkt i din kassa: ett script och ett FliqPay.mount()-anrop renderar belopp, bankväljare och livestatus — isolerat i en shadow root så det aldrig krockar med din styling. Dra i den för att se den anpassa sig till valfri bredd.",
     "embedLabel": "Inbäddning",
     "embedDemoCap": "↑ Den riktiga widgeten, live på den här sidan (demoläge).",
     "optOrderId": "betalorderns id från ditt create-anrop — widgeten laddar dess belopp, referens och status live.",
@@ -149,6 +149,6 @@
     "rowPayH": "Eller lägg betalknappen i din kassa",
     "rowPayP": "Ett mount-anrop renderar belopp och bankväljare direkt på din sida. Betalaren väljer bank och godkänner överföringen — direkt från kontot.",
     "rowWhH": "Status i realtid, signerat",
-    "rowWhP": "Vi skickar ett HMAC-signerat event vid varje ändring — CREATED → PENDING → SETTLED — så ditt system alltid vet var betalningen står."
+    "rowWhP": "Vi skickar ett HMAC-signerat event vid varje ändring — CREATED → RESERVED → PAID — så ditt system alltid vet var betalningen står."
   }
 }
