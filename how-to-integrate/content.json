@@ -88,7 +88,8 @@
     "viewWidgetH": "Full pay widget",
     "viewWidgetP": "Made for invoices. Embed it on your own digital invoice page — it shows the amount, the reference and live status, and reflows to any width you give it.",
     "statusH": "Automatic statuses — for you and your customer",
-    "statusLede": "Both the button and the widget report the same live status — and we POST an HMAC-signed webhook on every change, so your system stays in sync automatically."
+    "statusLede": "Both the button and the widget report the same live status — and we POST an HMAC-signed webhook on every change, so your system stays in sync automatically.",
+    "optStepped": "reveal one step at a time — pick a bank, then pay, then done — so the widget stays about a third of the height."
   },
   "sv": {
     "title": "Bli partner — FLIQ",
@@ -179,6 +180,7 @@
     "viewWidgetH": "Fullstor betalwidget",
     "viewWidgetP": "Gjord för fakturor. Bädda in den på din egen digitala fakturasida — den visar belopp, referens och livestatus och anpassar sig till valfri bredd.",
     "statusH": "Automatiska statusar — för både dig och din kund",
-    "statusLede": "Både knappen och widgeten visar samma livestatus — och vi skickar ett HMAC-signerat webhook-event vid varje ändring, så ditt system hålls synkat automatiskt."
+    "statusLede": "Både knappen och widgeten visar samma livestatus — och vi skickar ett HMAC-signerat webhook-event vid varje ändring, så ditt system hålls synkat automatiskt.",
+    "optStepped": "visa ett steg i taget — välj bank, sedan betala, sedan klart — så widgeten håller sig till ungefär en tredjedel av höjden."
   }
 }
