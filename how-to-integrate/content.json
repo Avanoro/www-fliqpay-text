@@ -65,7 +65,15 @@
     "optHeader": "show the FLIQ header — logo, language and light/dark toggle.",
     "optSignup": "show the consumer sign-up band under the pay form.",
     "optAccent": "tint the hero to your brand — try a colour:",
-    "embedResize": "Drag the bottom-right corner to resize — the widget reflows to fit."
+    "embedResize": "Drag the bottom-right corner to resize — the widget reflows to fit.",
+    "rowReqH": "One request to get paid",
+    "rowReqP": "POST a payment order with the amount and the merchant — authenticated with your API key. That's the whole integration.",
+    "rowResH": "An order and a pay link, instantly",
+    "rowResP": "You get back the order id, its live status and a hosted pay URL — redirect to it, or embed the widget with the same id.",
+    "rowPayH": "Or drop the pay button into your checkout",
+    "rowPayP": "One mount call renders the amount and a bank picker right on your page. The payer picks their bank and confirms the transfer — straight from their account.",
+    "rowWhH": "Real-time status, signed",
+    "rowWhP": "We POST an HMAC-signed event on every change — CREATED → PENDING → SETTLED — so your system always knows where the payment stands."
   },
   "sv": {
     "title": "Bli partner — FLIQ",
@@ -133,6 +141,14 @@
     "optHeader": "visa FLIQ-headern — logga, språk och ljus/mörk-växel.",
     "optSignup": "visa skapa-konto-fältet under betalformuläret.",
     "optAccent": "tona hero-ytan till din brand — prova en färg:",
-    "embedResize": "Dra i nedre högra hörnet för att ändra storlek — widgeten anpassar sig."
+    "embedResize": "Dra i nedre högra hörnet för att ändra storlek — widgeten anpassar sig.",
+    "rowReqH": "Ett anrop för att få betalt",
+    "rowReqP": "Skicka en betalorder med belopp och merchant — autentiserat med din API-nyckel. Det är hela integrationen.",
+    "rowResH": "Order och betallänk direkt",
+    "rowResP": "Du får tillbaka order-id, live-status och en hostad betal-URL — skicka betalaren dit, eller bädda in widgeten med samma id.",
+    "rowPayH": "Eller lägg betalknappen i din kassa",
+    "rowPayP": "Ett mount-anrop renderar belopp och bankväljare direkt på din sida. Betalaren väljer bank och godkänner överföringen — direkt från kontot.",
+    "rowWhH": "Status i realtid, signerat",
+    "rowWhP": "Vi skickar ett HMAC-signerat event vid varje ändring — CREATED → PENDING → SETTLED — så ditt system alltid vet var betalningen står."
   }
 }
