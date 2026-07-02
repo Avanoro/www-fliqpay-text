@@ -87,9 +87,12 @@
     "viewBtnP": "For webshops and checkout flows. It shows the amount and opens a bank picker in place — the payer confirms the transfer straight from their account, without leaving your page.",
     "viewWidgetH": "Full pay widget",
     "viewWidgetP": "Made for invoices. Embed it on your own digital invoice page — it shows the amount, the reference and live status, and reflows to any width you give it.",
-    "statusH": "Automatic statuses — for you and your customer",
-    "statusLede": "Both the button and the widget report the same live status — and we POST an HMAC-signed webhook on every change, so your system stays in sync automatically.",
-    "optStepped": "reveal one step at a time — pick a bank, then pay, then done — so the widget stays about a third of the height."
+    "statusH": "What you see as the recipient",
+    "statusLede": "On every status change we POST a signed webhook to your endpoint — here's exactly what you receive.",
+    "optStepped": "reveal one step at a time — pick a bank, then pay, then done — so the widget stays about a third of the height.",
+    "snipH": "Integrate in a few lines",
+    "snipCheckout": "Checkout button",
+    "snipWidget": "Pay widget"
   },
   "sv": {
     "title": "Bli partner — FLIQ",
@@ -179,8 +182,11 @@
     "viewBtnP": "För webshoppar och kassaflöden. Den visar beloppet och öppnar en bankväljare på plats — betalaren godkänner överföringen direkt från sitt konto, utan att lämna din sida.",
     "viewWidgetH": "Fullstor betalwidget",
     "viewWidgetP": "Gjord för fakturor. Bädda in den på din egen digitala fakturasida — den visar belopp, referens och livestatus och anpassar sig till valfri bredd.",
-    "statusH": "Automatiska statusar — för både dig och din kund",
-    "statusLede": "Både knappen och widgeten visar samma livestatus — och vi skickar ett HMAC-signerat webhook-event vid varje ändring, så ditt system hålls synkat automatiskt.",
-    "optStepped": "visa ett steg i taget — välj bank, sedan betala, sedan klart — så widgeten håller sig till ungefär en tredjedel av höjden."
+    "statusH": "Detta ser du som betalningsmottagare",
+    "statusLede": "Vid varje statusändring POSTar vi ett signerat webhook-event till din endpoint — det här är precis vad du får.",
+    "optStepped": "visa ett steg i taget — välj bank, sedan betala, sedan klart — så widgeten håller sig till ungefär en tredjedel av höjden.",
+    "snipH": "Integrera med några rader kod",
+    "snipCheckout": "Checkout-knapp",
+    "snipWidget": "Betalwidget"
   }
 }
