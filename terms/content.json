@@ -1,0 +1,148 @@
+{
+  "_readme": [
+    "PLACEHOLDER — replace the `sections` array in each language with the real terms.",
+    "Everything outside `sections` (hero, CTA, footer labels) is already final.",
+    "",
+    "Block vocabulary understood by the renderer (assets/content-blocks.js):",
+    "  { \"p\": \"paragraph text\" }",
+    "  { \"h3\": \"subheading\", \"num\": \"4.1\" }          num is optional",
+    "  { \"ul\": [\"item\", \"item\"] }                     also \"ol\" for numbered",
+    "  { \"dl\": [{ \"k\": \"Label\", \"v\": \"Value\" }] }      label/value pairs",
+    "  { \"table\": { \"caption\": \"…\", \"head\": [\"A\",\"B\"], \"rows\": [[\"1\",\"2\"]] } }",
+    "  { \"note\": \"aside, set smaller and indented\" }",
+    "  { \"meta\": \"Version 1.0 — effective as of …\" }",
+    "",
+    "Links: write {name} in the text and add a sibling `links` map:",
+    "  { \"p\": \"See {imy}.\", \"links\": { \"imy\": { \"text\": \"IMY\", \"href\": \"https://www.imy.se/\" } } }",
+    "Bare emails and www./https:// addresses are linked automatically — no markup needed.",
+    "",
+    "A section with no `heading` is rendered but left out of the contents list.",
+    "All text is escaped at build time; HTML tags in these strings will NOT render."
+  ],
+
+  "en": {
+    "title": "Terms & Conditions — FLIQ",
+    "back": "Back to home",
+    "crumbKicker": "LEGAL",
+    "crumbHome": "FLIQ",
+    "crumbPage": "Terms & Conditions",
+    "heroLine1": "The terms,",
+    "heroLine1b": "in plain ",
+    "heroLine2": "words",
+    "heroLede": "The agreement between you and Avanoro AB when you use FLIQ.",
+    "tocLabel": "Contents",
+    "ctaH1": "Questions about the ",
+    "ctaH2": "terms",
+    "ctaP": "Write to us and we'll get back to you.",
+    "ctaBtn": "info@fliqpayments.com",
+    "footSub": "A new generation of payments — Nordic in spirit, European in reach.",
+    "footCompany": "Company",
+    "footAbout": "About",
+    "footWaitlist": "Waitlist",
+    "footIntegrate": "Partners & developers",
+    "footCareers": "Careers",
+    "footPress": "Press",
+    "footLegal": "Legal",
+    "footPrivacy": "Privacy",
+    "footTerms": "Terms",
+    "footSocial": "Social",
+    "footContact": "Contact",
+    "footFaq": "FAQ",
+    "footBanks": "Supported banks",
+    "sections": [
+      {
+        "id": "preamble",
+        "blocks": [
+          { "meta": "Draft — not yet in force" },
+          { "p": "Our terms and conditions are being finalised and will be published here before FLIQ becomes generally available." },
+          { "p": "In the meantime, our privacy policy describes how we handle your personal data, and we're happy to answer any question about the terms directly at info@fliqpayments.com." }
+        ]
+      },
+      {
+        "num": "1",
+        "heading": "Who we are",
+        "blocks": [
+          { "p": "FLIQ is a payment initiation service operated by Avanoro AB." },
+          { "dl": [
+            { "k": "Company", "v": "Avanoro AB, reg. no. 559329-1239" },
+            { "k": "Address", "v": "Västra Järnvägsgatan 3, 111 64 Stockholm, Sweden" },
+            { "k": "Email", "v": "info@fliqpayments.com" }
+          ] }
+        ]
+      },
+      {
+        "num": "2",
+        "heading": "Related documents",
+        "blocks": [
+          {
+            "p": "How we process personal data is described separately in our {privacy}.",
+            "links": { "privacy": { "text": "privacy policy", "href": "/en/privacy" } }
+          }
+        ]
+      }
+    ]
+  },
+
+  "sv": {
+    "title": "Villkor — FLIQ",
+    "back": "Tillbaka till start",
+    "crumbKicker": "JURIDIK",
+    "crumbHome": "FLIQ",
+    "crumbPage": "Villkor",
+    "heroLine1": "Villkoren,",
+    "heroLine1b": "i klara ",
+    "heroLine2": "ord",
+    "heroLede": "Avtalet mellan dig och Avanoro AB när du använder FLIQ.",
+    "tocLabel": "Innehåll",
+    "ctaH1": "Frågor om ",
+    "ctaH2": "villkoren",
+    "ctaP": "Skriv till oss så hör vi av oss.",
+    "ctaBtn": "info@fliqpayments.com",
+    "footSub": "En ny generation betalningar — nordisk till själen, europeisk i räckvidd.",
+    "footCompany": "Företag",
+    "footAbout": "Om oss",
+    "footWaitlist": "Väntelista",
+    "footIntegrate": "Partners & utvecklare",
+    "footCareers": "Karriär",
+    "footPress": "Press",
+    "footLegal": "Juridik",
+    "footPrivacy": "Integritet",
+    "footTerms": "Villkor",
+    "footSocial": "Sociala medier",
+    "footContact": "Kontakt",
+    "footFaq": "Vanliga frågor",
+    "footBanks": "Banker som stöds",
+    "sections": [
+      {
+        "id": "preamble",
+        "blocks": [
+          { "meta": "Utkast — ännu inte gällande" },
+          { "p": "Våra villkor färdigställs just nu och publiceras här innan FLIQ blir allmänt tillgängligt." },
+          { "p": "Under tiden beskriver vår integritetspolicy hur vi hanterar dina personuppgifter, och vi svarar gärna på frågor om villkoren direkt på info@fliqpayments.com." }
+        ]
+      },
+      {
+        "num": "1",
+        "heading": "Vilka vi är",
+        "blocks": [
+          { "p": "FLIQ är en betalningsinitieringstjänst som drivs av Avanoro AB." },
+          { "dl": [
+            { "k": "Bolag", "v": "Avanoro AB, org.nr 559329-1239" },
+            { "k": "Adress", "v": "Västra Järnvägsgatan 3, 111 64 Stockholm" },
+            { "k": "E-post", "v": "info@fliqpayments.com" }
+          ] }
+        ]
+      },
+      {
+        "num": "2",
+        "heading": "Relaterade dokument",
+        "blocks": [
+          {
+            "p": "Hur vi behandlar personuppgifter beskrivs separat i vår {privacy}.",
+            "links": { "privacy": { "text": "integritetspolicy", "href": "/sv/privacy" } }
+          }
+        ]
+      }
+    ]
+  }
+}

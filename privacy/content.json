@@ -1,0 +1,579 @@
+{
+  "en": {
+    "title": "Privacy Policy — FLIQ",
+    "back": "Back to home",
+    "crumbKicker": "LEGAL",
+    "crumbHome": "FLIQ",
+    "crumbPage": "Privacy Policy",
+    "heroLine1": "Your data,",
+    "heroLine1b": "your ",
+    "heroLine2": "control",
+    "heroLede": "How and why Avanoro processes your personal data when you use FLIQ — what we collect, why we hold it, and the rights you have over it.",
+    "tocLabel": "Contents",
+    "ctaH1": "Questions about your ",
+    "ctaH2": "data",
+    "ctaP": "Write to us and we'll get back to you.",
+    "ctaBtn": "info@fliqpayments.com",
+    "footSub": "A new generation of payments — Nordic in spirit, European in reach.",
+    "footCompany": "Company",
+    "footAbout": "About",
+    "footWaitlist": "Waitlist",
+    "footIntegrate": "Partners & developers",
+    "footCareers": "Careers",
+    "footPress": "Press",
+    "footLegal": "Legal",
+    "footPrivacy": "Privacy",
+    "footTerms": "Terms",
+    "footSocial": "Social",
+    "footContact": "Contact",
+    "footFaq": "FAQ",
+    "footBanks": "Supported banks",
+    "sections": [
+      {
+        "id": "preamble",
+        "blocks": [
+          { "meta": "Version 1.0 — effective as of 17 June 2026" },
+          { "p": "Avanoro AB, reg. no. 559329-1239 (“Avanoro”, “we” or “us”) is committed to protecting your privacy and your right to control your own personal data. We always strive to process your personal data with care. The General Data Protection Regulation (“GDPR”) has applied as law in all EU Member States since 25 May 2018. Among other things, the GDPR is intended to protect individuals’ fundamental rights and freedoms, in particular their right to the protection of personal data." },
+          { "p": "This privacy policy describes how and why Avanoro processes your personal data, which categories of personal data we process, and what rights you have as a natural person (“you”) when you use Avanoro AB’s payment initiation service FLIQ, via a product, website or mobile app owned by us, or a website belonging to a merchant that offers FLIQ (the “Service”)." }
+        ]
+      },
+      {
+        "num": "1",
+        "heading": "Data Controller",
+        "blocks": [
+          { "p": "Avanoro is the data controller and is therefore responsible for the processing of personal data carried out by us or on our behalf." },
+          { "p": "Avanoro AB, reg. no. 559329-1239" },
+          { "dl": [
+            { "k": "Address", "v": "Västra Järnvägsgatan 3, 111 64 Stockholm, Sweden" },
+            { "k": "Email", "v": "info@fliqpayments.com" }
+          ] },
+          { "p": "Avanoro has not appointed a Data Protection Officer." }
+        ]
+      },
+      {
+        "num": "2",
+        "heading": "Data Subjects Whose Personal Data We Process",
+        "blocks": [
+          { "p": "This section describes the categories of data subjects whose personal data we process. You may belong to more than one category, depending on your relationship with Avanoro." },
+          { "ul": [
+            "Users of the Service.",
+            "Individuals who contact Avanoro’s customer support.",
+            "Visitors to Avanoro’s website."
+          ] }
+        ]
+      },
+      {
+        "num": "3",
+        "heading": "Personal Data We Collect About You",
+        "blocks": [
+          { "p": "The personal data we process is collected from:" },
+          { "ul": [
+            "you, as a user,",
+            "your bank and payment service provider,",
+            "merchants that use the FLIQ payment services, and",
+            "where applicable, credit reference agencies (e.g. UC, Creditsafe Sverige or Sergel Kredittjänster, which are supervised by the Swedish Authority for Privacy Protection)."
+          ] },
+          { "p": "The personal data we process when you use the Service is:" },
+          { "ul": [
+            "Identification Data (e.g. full name, personal identity number, age, login ID for the mobile app and website, and BankID) (“Identification Data”),",
+            "Contact Data (e.g. postal address, telephone number and email address) (“Contact Data”),",
+            "Payment Data (e.g. account details and BankID signature) (“Payment Data”),",
+            "Transaction Data (e.g. full name and telephone number of the sender and recipient, amount, transaction ID, masked card information, payment account, recipient account and text/message) (“Transaction Data”),",
+            "Device Information (e.g. IP address, device type, operating system, browser and MSISDN) (“Device Information”), and",
+            "Usage Data (e.g. views, time, frequency and duration of activities in the mobile app, search history and login/logout data) (“Usage Data”)."
+          ] },
+          { "p": "The personal data we process when you visit our website is:" },
+          { "ul": [
+            "the ID of the device you are using, and",
+            "cookies, which are described in more detail in Section 8 below."
+          ] }
+        ]
+      },
+      {
+        "num": "4",
+        "heading": "What We Use Your Personal Data For",
+        "blocks": [
+          { "p": "This section describes the purposes for which we process your personal data, which categories of personal data are used in the processing, and the legal basis on which the processing is carried out." },
+          { "p": "The purpose of collecting and processing your personal data is to provide the FLIQ mobile app and to offer and provide the Service." },
+          { "p": "Personal data is collected and processed only for as long as you remain a registered user of the Service, until you withdraw any consents to the processing of personal data, or for such longer period as is required by law or agreement (e.g. currently seven years for personal data linked to accounting records)." },
+          { "p": "We process and use your personal data on the following legal bases (i.e. legal grounds):" },
+          { "ul": [
+            "to perform a contract,",
+            "on the basis of consent, where explicitly stated, for example for non-essential cookies or marketing communications,",
+            "to comply with our legal obligations, including our obligation to disclose information to authorities upon request (where required under applicable law, and used solely for that purpose), and",
+            "on the basis of a legitimate interest assessment, justified by Avanoro’s legitimate interest in (1) providing a secure and functioning service, e.g. to enable secure login, (2) providing customer support to you, (3) being able to inform you about the Service, and (4) preventing fraud, preventing money laundering and terrorist financing, complying with bookkeeping obligations, and ensuring network and information security."
+          ] },
+          { "table": {
+            "caption": "Purposes, legal bases and retention periods",
+            "head": ["Purpose", "Personal data", "Legal basis", "Retention"],
+            "rows": [
+              ["Registering a user account", "Identification Data", "Performance of contract", "For as long as the agreement is in effect, and thereafter 24 months"],
+              ["Authentication with BankID", "Identification Data", "Performance of contract", "5 years after the relationship has ended"],
+              ["Carrying out payments", "Payment Data, Transaction Data", "Performance of contract", "7 years"],
+              ["Customer support", "Identification Data, Contact Data", "Legitimate interest", "24 months after the matter is closed"],
+              ["Fraud prevention", "Identification Data, Transaction Data, Device Information", "Legitimate interest", "5 years after the relationship has ended"],
+              ["AML controls", "Identification Data, Transaction Data", "Legal obligation", "5 years after the customer relationship has ended"],
+              ["KYC (Know Your Customer)", "Identification Data, Contact Data", "Legal obligation", "5 years after the relationship has ended"],
+              ["Accounting", "Transaction Data", "Legal obligation", "7 years"],
+              ["Security logs", "Device Information, Usage Data", "Legal obligation", "12 months"],
+              ["Digital platforms", "Cookies", "Legitimate interest (necessary cookies) and consent (other cookies, e.g. analytics and marketing)", "12 months"],
+              ["Sending information", "Identification Data, Contact Data", "Contract, consent", "5 years after the relationship has ended"]
+            ]
+          } },
+          { "h3": "Users of the FLIQ Mobile App or Logged in to Avanoro’s Websites", "num": "4.1" },
+          { "p": "When you download, activate and use the FLIQ mobile app, we process Device Information. This data is used to connect you as a user to the mobile app, to maintain the register of connected users, to terminate your connection, and to provide the functionality included in the mobile app from time to time. Within the mobile app, you may be offered services provided by Avanoro. In order to offer and provide such services, we process the personal data set out in Section 3." },
+
+          { "h3": "When You Send and Receive Payments via Our Website and Mobile App", "num": "4.2" },
+          { "p": "In order to send your payments and receive refunds, we process Transaction Data and Payment Data (without you being a registered user of the Service), as well as Identification Data and Contact Data (as a registered and logged-in user of the Service). Some of this data may be obtained from the bank you have chosen to connect to the Service." },
+          { "p": "When you use FLIQ as a payment initiation service, we only collect the data required to initiate and verify the payment, or to comply with legal obligations." },
+
+          { "h3": "Visitors to Avanoro’s Website", "num": "4.3" },
+          { "p": "When you visit the website www.fliqpayments.com, Avanoro processes cookies, as described in Section 8 below." },
+
+          { "h3": "When You Contact Our Customer Support", "num": "4.4" },
+          { "p": "When you contact Avanoro by email, telephone or other channels, Avanoro will process the personal data you provide, as set out in Section 3, in order to handle and respond to your queries." },
+
+          { "h3": "When We Send You Information", "num": "4.5" },
+          { "p": "From time to time, we may need to contact you (by email, SMS or via Avanoro’s mobile app, depending on your preference) with information about the Service (such as operational information, security information and information about updates) or your use of the Service. On these occasions, we will process your Identification Data and Contact Data in order to send you such information." },
+
+          { "h3": "To Prevent Money Laundering and Terrorist Financing, and to Comply with Bookkeeping Obligations", "num": "4.6" },
+          { "p": "Avanoro will process the personal data you have provided, as set out in Section 3, in order to counter money laundering and terrorist financing, and to comply with our bookkeeping obligations." },
+          { "p": "In order to meet the requirements of anti-money laundering and counter-terrorist financing legislation, Avanoro may, among other things, carry out:" },
+          { "ul": [
+            "identity verification,",
+            "customer due diligence measures (KYC),",
+            "credit checks,",
+            "screening against sanctions lists,",
+            "screening of politically exposed persons (PEPs),",
+            "transaction monitoring, and",
+            "reporting to competent authorities where required by law."
+          ] },
+
+          { "h3": "Upon Request from an Authority", "num": "4.7" },
+          { "p": "Avanoro processes and discloses the personal data set out in Section 3 when responding to requests from authorities, where we are legally required to do so." }
+        ]
+      },
+      {
+        "num": "5",
+        "heading": "Recipients of Personal Data",
+        "blocks": [
+          { "p": "We may share your personal data with others to the extent we have a legal obligation to do so, and in order to perform services and fulfil agreements we have with you or our suppliers. We disclose personal data to our external business partners, or to the suppliers that need the data in order to provide FLIQ as a payment option to you." },
+          { "p": "Avanoro uses suppliers that process your personal data on our behalf. Such processing takes place, where applicable, under data processing agreements with the supplier, to ensure that the processing is carried out in accordance with law and Avanoro’s own rules for the processing of personal data. A list of current data processing agreements can be obtained by contacting us. Examples of suppliers include:" },
+          { "ul": [
+            "merchants and businesses that offer FLIQ as a payment option,",
+            "banks and account-holding institutions,",
+            "BankID providers,",
+            "cloud and hosting providers,",
+            "providers of customer support systems,",
+            "providers of AML and fraud prevention services, and",
+            "accounting and audit service providers."
+          ] },
+          { "p": "Avanoro may further disclose your personal data to law enforcement authorities, tax authorities or supervisory authorities, where required by law, regulation or other legislation. In the event of a dispute, or to protect the legitimate interests of Avanoro or a third party, Avanoro may transfer personal data to an authority or an advisor." }
+        ]
+      },
+      {
+        "num": "6",
+        "heading": "Privacy and Security",
+        "blocks": [
+          { "p": "Avanoro takes technical and organisational security measures to protect your data against unauthorised disclosure, alteration or destruction. Avanoro’s employees and subcontractors are instructed to handle all personal data in accordance with applicable laws and regulations on personal data." }
+        ]
+      },
+      {
+        "num": "7",
+        "heading": "Transfers to Third Countries",
+        "blocks": [
+          { "p": "Your personal data is processed primarily within the EU/EEA." },
+          {
+            "p": "In certain exceptional cases, Avanoro may transfer personal data to data processors located outside the EU/EEA. Such transfers may only be made after we have, in the individual case, implemented appropriate safeguards to ensure that your privacy and your rights are protected. In connection with such transfers, Avanoro ensures that appropriate safeguards have been implemented on the basis of an adequacy decision by the European Commission, the EU Standard Contractual Clauses (SCCs), or another valid transfer mechanism under the GDPR. Personal data may also be transferred where the European Commission has decided that an adequate level of protection exists in the country concerned (information on which countries this applies to is available on the website of the Swedish Authority for Privacy Protection (IMY) {imy}).",
+            "links": {
+              "imy": {
+                "text": "here",
+                "href": "https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/overforing-till-tredje-land/adekvat-skyddsniva/"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "num": "8",
+        "heading": "Information About Cookies",
+        "blocks": [
+          { "p": "Avanoro uses cookies and similar tracking technologies to provide you with the best possible user experience when you visit our digital platforms, such as www.fliqpayments.com." },
+          { "p": "There are two types of cookies:" },
+          { "ul": [
+            "A session cookie, which is temporarily stored in the computer’s memory while you are visiting a webpage. It disappears when you close your browser.",
+            "A persistent cookie, which remains on your computer until its expiry date, or until a specified period of time has elapsed."
+          ] },
+          { "h3": "Use of Cookies on www.fliqpayments.com" },
+          { "p": "If you do not want to accept all cookies, you can choose to select which cookies to accept. If you do not want to accept cookies on www.fliqpayments.com, this may affect your ability to use the Service." },
+          { "p": "Our cookies help us to:" },
+          { "ul": [
+            "improve the user experience on our website,",
+            "save your preferences for your next visit, and/or",
+            "improve security when you use our website."
+          ] }
+        ]
+      },
+      {
+        "num": "9",
+        "heading": "Your Rights",
+        "blocks": [
+          {
+            "p": "Under the GDPR, you have a number of rights in relation to your personal data. Below is a description of your rights and how to exercise them. You can read more about your rights on the website of the Swedish Authority for Privacy Protection (IMY) {imy}. You have the right to lodge a complaint with the Swedish Authority for Privacy Protection (IMY) if you consider that our processing of your personal data infringes the GDPR.",
+            "links": {
+              "imy": {
+                "text": "here",
+                "href": "https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/de-registrerades-rattigheter/"
+              }
+            }
+          },
+
+          { "h3": "Right to Information", "num": "9.1" },
+          { "p": "You have the right to be informed when we collect personal data about you and how your personal data is processed by Avanoro. Such information is provided through this privacy policy, through our terms and conditions, when we obtain your consent, and on specific occasions in the event of a personal data breach at Avanoro affecting your personal data, where it is likely that the breach would result in a risk to your rights or freedoms." },
+
+          { "h3": "Right of Access", "num": "9.2" },
+          { "p": "You have the right to obtain a summary of the personal data Avanoro stores about you, in the form of an extract from our register, by submitting a written request to us. Through this extract, you can verify the accuracy and lawfulness of the data. Avanoro may be prevented from disclosing data, for example due to provisions in other legislation. Avanoro may further refuse to provide the data in the case of manifestly unfounded or excessive requests." },
+
+          { "h3": "Right to Rectification", "num": "9.3" },
+          { "p": "You have the right to have inaccurate data about you corrected, and the right to supplement any personal data that is missing and relevant, having regard to the purpose of the processing." },
+          { "p": "If your Contact Data needs to be changed, you can update this information directly in the mobile app." },
+
+          { "h3": "Right to Erasure", "num": "9.4" },
+          { "p": "You have the right to request that Avanoro erase your personal data when it is no longer necessary for the purposes for which it was collected. If Avanoro is required to retain your personal data under law or under an agreement you have entered into with Avanoro, we will ensure that the personal data is processed only for the specific purpose set out in the law or the agreement." },
+          { "p": "Your right to request erasure of your personal data may affect your ability to use the Service." },
+
+          { "h3": "Right to Restriction of Processing", "num": "9.5" },
+          { "p": "In certain cases, you have the right to request that the processing of your personal data be restricted, including while the accuracy of your personal data is being investigated, if you have requested rectification. Restriction means that the data is marked so that, in the future, it may only be processed for certain limited purposes." },
+          { "p": "Your right to request restriction of the processing of your personal data may affect your ability to use the Service." },
+
+          { "h3": "Right to Object", "num": "9.6" },
+          { "p": "In certain cases, you have the right to object to our processing of your personal data. If the legal basis for our processing of personal data is based on a public interest, the exercise of official authority, or a legitimate interest assessment, you have the right to object at any time to the processing of your personal data. If you object to the processing of your personal data, the processing may only continue if there are compelling legitimate grounds for the processing which override your interests, rights and freedoms, or if the processing is carried out for the establishment, exercise or defence of legal claims." },
+          { "p": "You always have the right to object to your personal data being used for direct marketing purposes. If you object to your personal data being used for direct marketing, you will be unsubscribed from such communications." },
+
+          { "h3": "Right to Data Portability", "num": "9.7" },
+          { "p": "In certain cases, you have the right to obtain and reuse your personal data elsewhere. Personal data processed on the basis of your consent or for the performance of a contract with you, and which you have provided, can be requested in a commonly used and machine-readable format that you can transfer to another data controller, where this is technically feasible. Avanoro is obliged to facilitate such a transfer of personal data." },
+
+          { "h3": "Right to Withdraw Consent", "num": "9.8" },
+          { "p": "If you have consented to one or more specific processing activities involving your personal data, you have the right to withdraw your consent at any time, and thereby request that we cease the processing immediately. You can withdraw your consent by contacting us at info@fliqpayments.com." },
+          { "p": "Your right to withdraw consent to the processing of personal data may affect your ability to use the Service." },
+
+          { "h3": "Automated Decision-Making", "num": "9.9" },
+          { "p": "Avanoro may use automated systems to carry out transaction controls, detect fraud, comply with the requirements of anti-money laundering legislation, and ensure the security of the Service. Such controls may, in certain cases, result in a transaction being declined or in additional verification being required. Decisions based on these controls are necessary for entering into and performing the agreement between you and us." },
+          { "p": "Where Avanoro uses automated decision-making that falls within the scope of Article 22 of the GDPR, you have, to the extent provided by applicable law, the right to request a human review of the decision. Certain information may, however, not be disclosed where this would be contrary to law or would undermine measures to prevent money laundering, terrorist financing, fraud, or other security risks." }
+        ]
+      },
+      {
+        "num": "10",
+        "heading": "Changes to This Privacy Policy",
+        "blocks": [
+          { "p": "Avanoro works continuously to improve and develop our services and our business. We may, from time to time, make changes to this privacy policy. The latest, current version of this privacy policy is always available at www.fliqpayments.com. If Avanoro makes significant changes that may affect your privacy or your rights, and that, by law, require you to be notified or to provide your consent, Avanoro will notify you (by email, SMS or via Avanoro’s mobile app, depending on your preference) and, where applicable, give you the opportunity to provide your consent." }
+        ]
+      },
+      {
+        "num": "11",
+        "heading": "Contact Us or the Swedish Authority for Privacy Protection",
+        "blocks": [
+          { "p": "You can exercise your rights by sending your request to us at info@fliqpayments.com." },
+          { "p": "If you have any questions about this privacy policy or our handling of personal data, or would like further information, please feel free to contact us in one of the following ways:" },
+          { "dl": [
+            { "k": "Email", "v": "info@fliqpayments.com" },
+            { "k": "Post", "v": "Avanoro AB, Västra Järnvägsgatan 3, 111 64 Stockholm, Sweden" }
+          ] },
+          {
+            "p": "You can also submit a complaint about the processing of your personal data to, or contact, the Swedish Authority for Privacy Protection (IMY) by email at imy@imy.se, or visit IMY’s website {imy}.",
+            "links": { "imy": { "text": "here", "href": "https://www.imy.se/" } }
+          }
+        ]
+      }
+    ]
+  },
+
+  "sv": {
+    "title": "Integritetspolicy — FLIQ",
+    "back": "Tillbaka till start",
+    "crumbKicker": "JURIDIK",
+    "crumbHome": "FLIQ",
+    "crumbPage": "Integritetspolicy",
+    "heroLine1": "Dina uppgifter,",
+    "heroLine1b": "din ",
+    "heroLine2": "kontroll",
+    "heroLede": "Hur och varför Avanoro behandlar dina personuppgifter när du använder FLIQ — vad vi samlar in, varför vi sparar det och vilka rättigheter du har.",
+    "tocLabel": "Innehåll",
+    "ctaH1": "Frågor om dina ",
+    "ctaH2": "uppgifter",
+    "ctaP": "Skriv till oss så hör vi av oss.",
+    "ctaBtn": "info@fliqpayments.com",
+    "footSub": "En ny generation betalningar — nordisk till själen, europeisk i räckvidd.",
+    "footCompany": "Företag",
+    "footAbout": "Om oss",
+    "footWaitlist": "Väntelista",
+    "footIntegrate": "Partners & utvecklare",
+    "footCareers": "Karriär",
+    "footPress": "Press",
+    "footLegal": "Juridik",
+    "footPrivacy": "Integritet",
+    "footTerms": "Villkor",
+    "footSocial": "Sociala medier",
+    "footContact": "Kontakt",
+    "footFaq": "Vanliga frågor",
+    "footBanks": "Banker som stöds",
+    "sections": [
+      {
+        "id": "preamble",
+        "blocks": [
+          { "meta": "Version 1.0 — gällande från den 17 juni 2026" },
+          { "p": "Avanoro AB, org. nr 559329-1239, (”Avanoro”, ”vi” eller ”oss”) värnar om din personliga integritet och din rätt att själv ha kontroll över dina personuppgifter. Vi strävar alltid efter att behandla dina personuppgifter med omsorg. Dataskyddsförordningen (”GDPR”) gäller som lag i alla EU:s medlemsländer från och med den 25 maj 2018. Denna har bland annat till syfte att skydda enskildas grundläggande rättigheter och friheter, särskilt din rätt till skydd av personuppgifter." },
+          { "p": "Denna integritetspolicy beskriver hur och varför Avanoro behandlar dina personuppgifter, vilka personuppgifter vi behandlar samt vilka rättigheter du har när du, i egenskap av fysisk person (”du”), använder Avanoro AB:s betalningsinitieringstjänster FLIQ via en produkt, webbplats eller en mobilapp som ägs av oss eller en webbplats som tillhör en leverantör som tillhandahåller FLIQ (”Tjänsten”)." }
+        ]
+      },
+      {
+        "num": "1",
+        "heading": "Personuppgiftsansvarig",
+        "blocks": [
+          { "p": "Avanoro är personuppgiftsansvarig och ansvarar därför för den personuppgiftsbehandling som utförs av oss eller för vår räkning." },
+          { "p": "Avanoro AB, org.nr 559329-1239" },
+          { "dl": [
+            { "k": "Adress", "v": "Västra Järnvägsgatan 3, 111 64 STOCKHOLM" },
+            { "k": "E-postadress", "v": "info@fliqpayments.com" }
+          ] },
+          { "p": "Avanoro har inte utsett något dataskyddsombud." }
+        ]
+      },
+      {
+        "num": "2",
+        "heading": "Registrerade vars personuppgifter behandlas",
+        "blocks": [
+          { "p": "I detta avsnitt beskrivs de kategorier av registrerade vars personuppgifter vi behandlar. Du kan tillhöra flera kategorier beroende på din relation till Avanoro." },
+          { "ul": [
+            "Användare av Tjänsten.",
+            "Individ som kontaktar Avanoros kundsupport.",
+            "Besökare på Avanoros webbplats."
+          ] }
+        ]
+      },
+      {
+        "num": "3",
+        "heading": "Personuppgifter som vi samlar in om dig",
+        "blocks": [
+          { "p": "De personuppgifter som vi behandlar samlas in från:" },
+          { "ul": [
+            "dig som användare,",
+            "din bank samt betalningstjänstleverantör,",
+            "företag (handlare) som använder FLIQ Betalningstjänster, samt",
+            "i förekommande fall från kreditupplysningsföretag (t.ex. UC, Creditsafe Sverige eller Sergel Kredittjänster som står under Integritetsskyddsmyndighetens tillsyn)."
+          ] },
+          { "p": "De personuppgifter som vi behandlar när du använder Tjänsten är:" },
+          { "ul": [
+            "Identifieringsuppgifter (t.ex. fullständigt namn, personnummer, ålder, inloggnings-ID för mobilappen och webbplatsen och Bank-ID) (”Identifieringsuppgifter”),",
+            "Kontaktuppgifter (t.ex. postadress, telefonnummer och e-postadress) (”Kontaktuppgifter”)",
+            "Betalningsuppgifter (t.ex. kontouppgifter och BankID-signatur) (”Betalningsuppgifter”),",
+            "Transaktionsdata (t.ex. fullständigt namn och telefonnummer på avsändare och mottagare, belopp, transaktions-ID, maskerad kortinformation, betalningskonto, mottagarkonto och text/meddelande) (”Transaktionsdata”),",
+            "Enhetsinformation (t.ex. IP-adress, typ av enhet, operativsystem, webbläsare och MSISDN) (”Enhetsinformation”), och",
+            "Användningsdata (t.ex. visningar, tid, frekvens, varaktighet av aktiviteter i mobilappen, sökhistorik och inloggnings-/utloggningsdata) (”Användningsdata”)."
+          ] },
+          { "p": "De personuppgifter vi behandlar när du besöker vår webbplats är:" },
+          { "ul": [
+            "ID:t på den enhet du använder, och",
+            "cookies, vilket vi berättar mer om under punkt 8 nedan."
+          ] }
+        ]
+      },
+      {
+        "num": "4",
+        "heading": "Vad vi använder dina personuppgifter till",
+        "blocks": [
+          { "p": "I detta avsnitt beskrivs för vilka ändamål vi behandlar dina personuppgifter, vilka kategorier av personuppgifter som används i behandlingen och med stöd av vilken rättslig grund behandlingen sker." },
+          { "p": "Ändamålet med att samla in och behandla dina personuppgifter är för att kunna tillhandahålla FLIQ mobilapp samt för att erbjuda och tillhandahålla Tjänsten." },
+          { "p": "Personuppgifter samlas in och behandlas endast så länge du är en registrerad användare av Tjänsten, tills du säger upp eventuella samtycken till behandling av personuppgifter eller den längre tid det krävs enligt lag eller avtal (t.ex. för närvarande sju år gällande personuppgifter kopplade till bokföringen)." },
+          { "p": "Personuppgifterna behandlas och används av oss (s.k. rättslig grund):" },
+          { "ul": [
+            "för att fullgöra avtal,",
+            "med stöd av samtycke när detta uttryckligen anges, exempelvis för icke-nödvändiga cookies eller marknadsföringsutskick,",
+            "för att uppfylla vår rättsliga förpliktelse eller skyldighet att kunna lämna ut uppgifter till myndigheter vid förfrågan (där det krävs enligt aktuell lagstiftning och används endast för det ändamålet), och",
+            "intresseavvägning motiverad av Avanoros berättigade intresse att 1) tillhandahålla en säker och fungerande tjänst, t.ex. för att tillhandahålla en säker inloggning, 2) tillhandahålla kundtjänst för dig, 3) kunna informera dig om Tjänsten, och 4) förebygga bedrägerier, förhindra penningtvätt, finansiering av terrorism, uppfylla bokföringsskyldighet och för att säkerställa nät- och informationssäkerhet."
+          ] },
+          { "table": {
+            "caption": "Ändamål, rättslig grund och lagringstid",
+            "head": ["Ändamål", "Personuppgifter", "Rättslig grund", "Lagring"],
+            "rows": [
+              ["Registrera användarkonto", "Identifieringsuppgifter", "Fullgörande av avtal", "Så länge avtalet gäller och därefter 24 månader"],
+              ["Autentisering med BankID", "Identifieringsuppgifter", "Fullgörande av avtal", "5 år efter avslutad relation"],
+              ["Genomföra betalningar", "Betalningsuppgifter, transaktionsdata", "Fullgörande av avtal", "7 år"],
+              ["Kundsupport", "Identifieringsuppgifter, kontaktuppgifter", "Berättigat intresse", "24 månader efter avslutat ärende"],
+              ["Bedrägeribekämpning", "Identifieringsuppgifter, transaktionsdata, enhetsinformation", "Berättigat intresse", "5 år efter avslutad relation"],
+              ["Penningtvättskontroller", "Identifieringsuppgifter, transaktionsdata", "Rättslig förpliktelse", "5 år efter avslutad kundrelation"],
+              ["KYC (Know Your Customer)", "Identifieringsuppgifter, Kontaktuppgifter", "Rättslig förpliktelse", "5 år efter avslutad relation"],
+              ["Bokföring", "Transaktionsdata", "Rättslig förpliktelse", "7 år"],
+              ["Säkerhetsloggar", "Enhetsinformation, användningsdata", "Rättslig förpliktelse", "12 månader"],
+              ["Digitala plattformar", "Cookie", "Berättigat intresse avseende nödvändiga cookies och samtycke avseende övriga cookies (besöksstatistik och marknadsföring)", "12 månader"],
+              ["Utskick av information", "Identifieringsuppgifter, Kontaktuppgifter", "Avtal, samtycke", "5 år efter avslutad relation"]
+            ]
+          } },
+          { "h3": "Användare av FLIQ Mobilapp eller inloggad på Avanoros webbplatser", "num": "4.1" },
+          { "p": "När du laddar ner, aktiverar och använder FLIQ mobilapp behandlar vi Enhetsinformation. Uppgifterna används för att ansluta dig som användare till mobilappen, registervård av anslutna användare, avsluta din anslutning samt för att tillhandahålla i mobilappen vid var tid ingående funktionalitet. I mobilappen kan du erbjudas tjänster som Avanoro tillhandahåller. För att erbjuda och tillhandahålla dig sådana tjänster behandlar vi de personuppgifter som framgår under punkt 3." },
+
+          { "h3": "När du skickar och tar emot betalningar via vår webbplats och mobilapp", "num": "4.2" },
+          { "p": "För att skicka dina betalningar och för att ta emot återbetalningar behandlar vi Transaktionsdata och Betalningsuppgifter (detta utan att vara en registrerad användare av Tjänsten) samt Identifieringsuppgifter och Kontaktuppgifter (som registrerad och inloggad användare av Tjänsten). Vissa av dessa uppgifter kan komma inhämtas från din bank som du valt att ansluta till Tjänsten." },
+          { "p": "När du använder FLIQ som betalningsinitieringstjänst hämtar vi endast de uppgifter som krävs för att initiera och verifiera betalningen eller för att uppfylla rättsliga skyldigheter." },
+
+          { "h3": "Besökare av Avanoros webbplats", "num": "4.3" },
+          { "p": "När du besöker webbplatsen www.fliqpayments.com behandlar Avanoro cookies, vilket framgår under punkt 8 nedan." },
+
+          { "h3": "Vid kontakt med vår kundsupport", "num": "4.4" },
+          { "p": "När du kontaktar Avanoro via e-post eller telefon eller via andra kanaler kommer Avanoro att behandla dina tillhandahållna personuppgifter som framgår under punkt 3 för att hantera och besvara dina frågor." },
+
+          { "h3": "Vid utskick av information från oss", "num": "4.5" },
+          { "p": "Från tid till annan kan vi behöva kontakta dig (via e-post, sms eller Avanoros mobilapp beroende på ditt val) med information om Tjänsten (såsom driftsinformation, säkerhetsinformation och information om uppdateringar) eller din användning av Tjänsten. Vi kommer vid dessa tillfällen behandla dina Identifieringsuppgifter och Kontaktuppgifter för att kunna skicka information." },
+
+          { "h3": "För att förhindra penningtvätt, finansiering av terrorism samt uppfylla bokföringsskyldighet", "num": "4.6" },
+          { "p": "Avanoro kommer att behandla dina tillhandahållna personuppgifter som framgår under punkt 3 för att motverka penningtvätt och finansiering av terrorism samt uppfylla vår bokföringsskyldighet." },
+          { "p": "För att uppfylla krav enligt lagstiftning om åtgärder mot penningtvätt och finansiering av terrorism kan Avanoro bl.a. genomföra:" },
+          { "ul": [
+            "identitetskontroller,",
+            "kundkännedomsåtgärder (KYC),",
+            "kreditupplysningar,",
+            "kontroll mot sanktionslistor,",
+            "kontroll av personer i politiskt utsatt ställning (PEP),",
+            "transaktionsövervakning, och",
+            "rapportering till behöriga myndigheter när lag kräver detta."
+          ] },
+
+          { "h3": "Vid förfrågning från myndighet", "num": "4.7" },
+          { "p": "Avanoro behandlar och lämnar ut personuppgifter som framgår under punkt 3 vid besvarande av myndighetsförfrågningar när vi är skyldiga att göra det enligt lag." }
+        ]
+      },
+      {
+        "num": "5",
+        "heading": "Mottagare som personuppgifter lämnas till",
+        "blocks": [
+          { "p": "Vi kan dela dina personuppgifter med andra i den mån vi har en laglig skyldighet att göra det och för att utföra tjänster och uppfylla avtal vi har med dig eller våra leverantörer. Vi lämnar personuppgifter till våra externa affärspartners, eller till de leverantörer som behöver uppgifterna för att tillhandahålla FLIQ som ett betalningsalternativ till dig." },
+          { "p": "Avanoro använder leverantörer som behandlar dina personuppgifter för vår räkning. Sådan personuppgiftsbehandling sker, där så är tillämpligt, enligt personuppgiftsbiträdesavtal med leverantören för att säkerställa att behandling sker i enlighet med lag och Avanoros egna bestämmelser för personuppgiftsbehandling. En förteckning över aktuella personuppgiftsbiträdesavtal kan erhållas genom att kontakt med oss. Exempel på leverantörer är:" },
+          { "ul": [
+            "handlare och företag som tillhandahåller FLIQ som ett betalningsalternativ,",
+            "banker och kontoförande institut,",
+            "BankID-leverantörer,",
+            "moln- och hostingleverantörer,",
+            "leverantörer av kundsupportsystem,",
+            "leverantörer av AML- och bedrägeribekämpningstjänster, och",
+            "bokförings- och revisionsleverantörer."
+          ] },
+          { "p": "Avanoro kan vidare lämna ut dina personuppgifter till brottsbekämpande myndigheter, skattemyndigheter eller tillsynsmyndigheter om det krävs enligt lag, förordning eller andra författningar. Vid tvist eller för att skydda Avanoro eller tredje parts berättigade intressen kan Avanoro överföra personuppgifter till myndighet eller rådgivare." }
+        ]
+      },
+      {
+        "num": "6",
+        "heading": "Integritet och säkerhet",
+        "blocks": [
+          { "p": "Avanoro vidtar tekniska och organisatoriska säkerhetsåtgärder för att skydda dina uppgifter mot obehörigt röjande, förändring eller förstörelse. Avanoros anställda och underleverantörer har instruktioner att hantera alla personuppgifter enligt gällande lagar och förordningar för personuppgifter." }
+        ]
+      },
+      {
+        "num": "7",
+        "heading": "Överföring till tredje land",
+        "blocks": [
+          { "p": "Dina personuppgifter behandlas huvudsakligen inom EU/EES." },
+          {
+            "p": "I vissa undantagsfall kan Avanoro överföra personuppgifter till personuppgiftsbiträden i länder utanför EU/EES. Sådana överföringar kan endast göras efter att vi har vidtagit, för det enskilda fallet, lämpliga skyddsåtgärder för att säkerställa att din integritet och dina rättigheter är skyddade. Vid sådana överföringar säkerställer Avanoro att lämpliga skyddsåtgärder har vidtagits med stöd av EU-kommissionens adekvansbeslut, EU:s standardavtalsklausuler (SCC), eller annan giltig överföringsmekanism enligt GDPR. Överföring av personuppgifter kan även ske om EU-kommissionen har beslutat att det finns en adekvat skyddsnivå i det aktuella landet (information om vilka länder detta gäller finns på IMY:s webbplats {imy}).",
+            "links": {
+              "imy": {
+                "text": "här",
+                "href": "https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/overforing-till-tredje-land/adekvat-skyddsniva/"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "num": "8",
+        "heading": "Information om cookies",
+        "blocks": [
+          { "p": "Avanoro använder cookies och liknande spårningstekniker för att kunna ge dig en så bra användarupplevelse som möjligt när du besöker några av våra digitala plattformar, exempelvis www.fliqpayments.com." },
+          { "p": "Det finns två typer av cookies:" },
+          { "ul": [
+            "En tillfällig cookie som lagras tillfälligt i datorns minne under tiden du är inne på en webbsida. Den försvinner när du stänger webbläsaren.",
+            "En varaktig cookie finns kvar på din dator tills dess sista funktionsdatum infaller eller tills en angiven tid förflutit."
+          ] },
+          { "h3": "Användning av cookies på www.fliqpayments.com" },
+          { "p": "Om du inte vill acceptera alla cookies, kan du välja urval av cookies. Om du inte vill acceptera cookies på www.fliqpayments.com så kan det påverka din möjlighet att använda Tjänsten." },
+          { "p": "Våra cookies hjälper oss att:" },
+          { "ul": [
+            "förbättra användarupplevelsen på vår webbplats,",
+            "spara dina inställningar till nästa besök, och/eller",
+            "förbättra säkerheten när du använder vår webbplats."
+          ] }
+        ]
+      },
+      {
+        "num": "9",
+        "heading": "Dina rättigheter",
+        "blocks": [
+          {
+            "p": "Enligt GDPR har du ett antal rättigheter i förhållande till dina personuppgifter. Här följer en beskrivning av dina rättigheter och hur du utövar dem. Du kan läsa mer om dina rättigheter på IMY:s webbplats {imy}. Du har rätt att inge klagomål till Integritetsskyddsmyndigheten (IMY) om du anser att vår behandling av dina personuppgifter strider mot GDPR.",
+            "links": {
+              "imy": {
+                "text": "här",
+                "href": "https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/de-registrerades-rattigheter/"
+              }
+            }
+          },
+
+          { "h3": "Rätt till information", "num": "9.1" },
+          { "p": "Du har rätt att få information om när vi samlar in personuppgifter om dig och hur dina personuppgifter behandlas av Avanoro. Sådan information lämnas genom denna integritetspolicy, genom våra villkor, när vi inhämtar ditt samtycke och vid särskilda tillfällen för det fall en personuppgiftsincident skulle inträffa hos Avanoro som berör dina personuppgifter och det är sannolikt att personuppgiftsincidenten skulle medföra en risk för dina rättigheter eller friheter." },
+
+          { "h3": "Rätt till tillgång", "num": "9.2" },
+          { "p": "Du har rätt att få tillgång till en sammanställning av de personuppgifter Avanoro lagrar om dig i ett s.k. registerutdrag genom att skriftligen begära ett registerutdrag från oss. Genom registerutdraget kan du kontrollera uppgifternas riktighet och laglighet. Avanoro kan vara förhindrad från att lämna ut uppgifter t.ex. på grund av bestämmelser i annan lagstiftning. Avanoro kan vidare vägra att tillhandahålla uppgifterna vid orimliga eller ogrundade begäranden." },
+
+          { "h3": "Rätt till rättelse", "num": "9.3" },
+          { "p": "Du har rätt att få felaktiga uppgifter om dig rättade och rätt att komplettera med sådana personuppgifter som saknas och som är relevanta med hänsyn till ändamålet med personuppgiftsbehandlingen." },
+          { "p": "Om dina Kontaktuppgifter behöver ändras, kan du ändra informationen direkt i mobilappen." },
+
+          { "h3": "Rätt till radering", "num": "9.4" },
+          { "p": "Du har rätt att begära att Avanoro raderar dina personuppgifter när de inte längre är nödvändiga för de ändamål som de blev insamlade för. Om Avanoro är skyldig att behålla dina personuppgifter enligt lag eller ett avtal som du har ingått med Avanoro så kommer vi att säkerställa att personuppgifterna endast behandlas för det specifika ändamål som framgår av lagen eller avtalet." },
+          { "p": "Din rätt att begära radering av dina personuppgifter kan komma påverka din möjlighet att använda Tjänsten." },
+
+          { "h3": "Rätt till begränsning av behandling", "num": "9.5" },
+          { "p": "Du har i vissa fall rätt att begära att behandlingen av dina personuppgifter begränsas bl.a. under den tid dina personuppgifters korrekthet utreds om du har begärt rättelse. Med begränsning menas att uppgifterna markeras så att dessa i framtiden endast får behandlas för vissa avgränsade syften." },
+          { "p": "Din rätt att begära begränsad behandling av dina personuppgifter kan komma påverka din möjlighet att använda Tjänsten." },
+
+          { "h3": "Rätt att göra invändningar", "num": "9.6" },
+          { "p": "Du har i vissa fall rätt att invända mot att vi behandlar dina personuppgifter. Om den rättsliga grunden för vår personuppgiftsbehandling är baserad på ett allmänt intresse, myndighetsutövning eller intresseavvägning har du rätt att när som helst göra invändningar mot behandlingen av dina personuppgifter. Om du invänder mot behandlingen av dina personuppgifter får behandlingen endast fortsätta om det finns avgörande berättigade skäl till att uppgifterna måste behandlas som väger tyngre än dina intressen, rättigheter och friheter eller om behandlingen sker för att fastställa, utöva eller försvara rättsliga anspråk." },
+          { "p": "Du har alltid rätt att invända mot att dina personuppgifter används för direkt marknadsföring. Om du invänder mot att dina personuppgifter används för direkt marknadsföring kommer du avregistreras från sådana utskick." },
+
+          { "h3": "Rätt till dataportabilitet", "num": "9.7" },
+          { "p": "Du har i vissa fall rätt att få ut och använda dina personuppgifter på annat håll. Personuppgifter som behandlas med stöd av ditt samtycke eller för fullgörande av ett avtal med dig, och som har lämnats av dig, kan begäras ut i ett allmänt använt och maskinläsbart format som du kan ta med dig till en annan personuppgiftsansvarig om det är tekniskt möjligt. Avanoro är skyldig att underlätta en sådan överflyttning av personuppgifter." },
+
+          { "h3": "Rätt att återkalla ditt samtycke", "num": "9.8" },
+          { "p": "Om du har samtyckt till en eller flera specifika behandlingar av dina personuppgifter har du rätt att när som helst återkalla ditt samtycke och därmed be oss att upphöra med behandlingen omedelbart. Du kan återkalla ditt samtycke genom att kontakta oss via info@fliqpayments.com." },
+          { "p": "Din rätt att återkalla samtycke till behandling av personuppgifter kan komma påverka din möjlighet att använda Tjänsten." },
+
+          { "h3": "Automatiserade beslut", "num": "9.9" },
+          { "p": "Avanoro kan använda automatiserade system för att genomföra kontroller av transaktioner, upptäcka bedrägerier, uppfylla krav enligt penningtvättslagstiftningen och säkerställa säkerheten i Tjänsten. Sådana kontroller kan i vissa fall medföra att en transaktion nekas eller att ytterligare verifiering krävs. Beslut som baseras på dessa kontroller är nödvändiga för ingåendet och fullföljandet av avtal mellan dig och oss." },
+          { "p": "Om Avanoro använder automatiserat beslutsfattande som omfattas av artikel 22 GDPR har du, i den utsträckning som följer av tillämplig lag, rätt att begära mänsklig granskning av beslutet. Viss information kan dock inte lämnas ut om detta skulle strida mot lag eller motverka åtgärder för att förebygga penningtvätt, finansiering av terrorism, bedrägerier eller andra säkerhetsrisker." }
+        ]
+      },
+      {
+        "num": "10",
+        "heading": "Ändringar i denna integritetspolicy",
+        "blocks": [
+          { "p": "Avanoro arbetar kontinuerligt med att förbättra och utveckla våra tjänster och vår verksamhet. Vi kan komma att, från tid till annan, göra ändringar i denna integritetspolicy. Den senaste och gällande versionen av denna integritetspolicy finns alltid tillgänglig på www.fliqpayments.com. Om Avanoro gör större ändringar som kan påverka din integritet eller dina rättigheter och som enligt lag kräver att du meddelas eller att du lämnar ditt samtycke, kommer Avanoro att meddela dig (via e-post, sms eller Avanoros mobilapp beroende på ditt val), och i förekommande fall, ge dig möjlighet att lämna samtycke." }
+        ]
+      },
+      {
+        "num": "11",
+        "heading": "Kontakta oss eller Integritetsskyddsmyndigheten",
+        "blocks": [
+          { "p": "Du kan utöva dina rättigheter genom att skicka din begäran till oss på info@fliqpayments.com." },
+          { "p": "Om du har några frågor angående denna integritetspolicy, om vår hantering av personuppgifter eller önskar ytterligare information är du välkommen att kontakta oss på något av följande sätt:" },
+          { "dl": [
+            { "k": "E-post", "v": "info@fliqpayments.com" },
+            { "k": "Post", "v": "Avanoro AB, Västra Järnvägsgatan 3, 111 64 Stockholm" }
+          ] },
+          {
+            "p": "Du kan också lämna ett klagomål på hur dina personuppgifter behandlas till eller kontakta Integritetsskyddsmyndigheten (IMY) via e-post på imy@imy.se eller besöka IMY:s webbplats {imy}.",
+            "links": { "imy": { "text": "här", "href": "https://www.imy.se/" } }
+          }
+        ]
+      }
+    ]
+  }
+}
