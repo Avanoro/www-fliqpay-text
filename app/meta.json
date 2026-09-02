@@ -1,0 +1,14 @@
+{
+  "en": {
+    "title": "The app — FLIQ",
+    "description": "The FLIQ app — scan and pay invoices from your bank account, move money between your accounts, send and request payments. Live in Sweden, iOS and Android in 2026.",
+    "ogImage": "",
+    "noindex": false
+  },
+  "sv": {
+    "title": "Appen — FLIQ",
+    "description": "FLIQ-appen — skanna och betala fakturor från ditt bankkonto, flytta pengar mellan dina konton, skicka och begär betalningar. Live i Sverige, iOS och Android 2026.",
+    "ogImage": "",
+    "noindex": false
+  }
+}
