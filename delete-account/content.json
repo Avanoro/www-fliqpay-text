@@ -1,0 +1,240 @@
+{
+  "en": {
+    "title": "Delete your Fliq account — FLIQ",
+    "back": "Back to home",
+    "crumbKicker": "LEGAL",
+    "crumbHome": "FLIQ",
+    "crumbPage": "Delete your Fliq account",
+    "heroLine1": "Delete your",
+    "heroLine1b": "Fliq ",
+    "heroLine2": "account",
+    "heroLede": "This cannot be undone. What is erased, what the law makes us keep, and how to ask for it — in the app or without it.",
+    "tocLabel": "Contents",
+    "loading": "Loading…",
+    "ctaH1": "Questions about ",
+    "ctaH2": "deletion",
+    "ctaP": "Write to us and we will get back to you.",
+    "ctaBtn": "info@fliqpayments.com",
+    "ariaBrand": "FLIQ",
+    "ariaLanguage": "Language",
+    "sections": [
+      {
+        "blocks": [
+          {
+            "meta": "Avanoro AB, org. no. 559329-1239 — Västra Järnvägsgatan 3, 111 64 Stockholm"
+          }
+        ]
+      },
+      {
+        "num": "1",
+        "heading": "How to delete your account",
+        "blocks": [
+          {
+            "h3": "In the app"
+          },
+          {
+            "p": "Open FLIQ, go to your profile and choose “Delete Fliq account”. You will be shown the same information as on this page, and asked to confirm once. Nothing is deleted until you do."
+          },
+          {
+            "h3": "Without the app"
+          },
+          {
+            "p": "If you have uninstalled FLIQ, or cannot sign in, use the form further down this page. We send a single-use link to that address and do nothing until you open it — receiving the mail is what proves the account is yours, which a request simply claiming an address cannot. We answer within 30 days as the GDPR requires."
+          }
+        ]
+      },
+      {
+        "num": "2",
+        "heading": "What is deleted",
+        "blocks": [
+          {
+            "ul": [
+              "Your profile — name, email, phone number and address",
+              "Every linked bank account, and the consent behind it",
+              "Saved recipients, notification settings and preferences",
+              "Your sign-ins and every active session"
+            ]
+          }
+        ]
+      },
+      {
+        "num": "3",
+        "heading": "What the law makes us keep",
+        "blocks": [
+          {
+            "p": "FliqPay is an authorised payment service provider under the Swedish Payment Services Act, which implements the EU payment services directive (PSD2). Records of payments you have made must be kept even after your account is gone — under accounting law, anti-money-laundering law and the payment services rules. That is normally five to seven years."
+          },
+          {
+            "p": "Those records are then used only to meet those obligations: not in the app, and not for anything else. Everything else is erased. Your right to erasure comes from the GDPR — the same regulation that allows the exception above."
+          }
+        ]
+      },
+      {
+        "num": "4",
+        "heading": "If you change your mind, you start over",
+        "blocks": [
+          {
+            "p": "There is no way back into a deleted account. You would create a new one and add your bank accounts again from the beginning."
+          }
+        ]
+      },
+      {
+        "num": "5",
+        "heading": "Your rights and how to reach us",
+        "blocks": [
+          {
+            "p": "Erasure is one of several rights the GDPR gives you. Section 9 of the privacy policy describes them all, and section 4 lists exactly how long each kind of record is kept and why."
+          },
+          {
+            "dl": [
+              {
+                "k": "Email",
+                "v": "info@fliqpayments.com"
+              },
+              {
+                "k": "Post",
+                "v": "Avanoro AB, Västra Järnvägsgatan 3, 111 64 Stockholm"
+              }
+            ]
+          },
+          {
+            "p": "The full policy is here: {policy}.",
+            "links": {
+              "policy": {
+                "text": "Read the privacy policy",
+                "href": "privacy.html"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "formHead": "Request deletion by email",
+    "formLede": "For when you no longer have the app. Enter the address your Fliq account uses and we will send a single-use confirmation link to it.",
+    "formLabel": "Email address",
+    "formCta": "Send confirmation link",
+    "formBusy": "Sending…",
+    "formSent": "Check your inbox. The link is valid for one hour and works once. Nothing is deleted until you open it.",
+    "formInvalid": "That does not look like an email address.",
+    "formError": "We could not send it right now. Nothing was deleted — try again in a moment."
+  },
+  "sv": {
+    "title": "Radera ditt Fliq-konto — FLIQ",
+    "back": "Tillbaka till start",
+    "crumbKicker": "JURIDIK",
+    "crumbHome": "FLIQ",
+    "crumbPage": "Radera ditt Fliq-konto",
+    "heroLine1": "Radera ditt",
+    "heroLine1b": "Fliq-",
+    "heroLine2": "konto",
+    "heroLede": "Det här går inte att ångra. Vad som raderas, vad lagen tvingar oss behålla, och hur du begär det — i appen eller utan den.",
+    "tocLabel": "Innehåll",
+    "loading": "Laddar…",
+    "ctaH1": "Frågor om ",
+    "ctaH2": "radering",
+    "ctaP": "Skriv till oss så hör vi av oss.",
+    "ctaBtn": "info@fliqpayments.com",
+    "ariaBrand": "FLIQ",
+    "ariaLanguage": "Språk",
+    "sections": [
+      {
+        "blocks": [
+          {
+            "meta": "Avanoro AB, org.nr 559329-1239 — Västra Järnvägsgatan 3, 111 64 Stockholm"
+          }
+        ]
+      },
+      {
+        "num": "1",
+        "heading": "Så raderar du ditt konto",
+        "blocks": [
+          {
+            "h3": "I appen"
+          },
+          {
+            "p": "Öppna FLIQ, gå till din profil och välj ”Radera Fliq-konto”. Du får se samma information som på den här sidan och bekräfta en gång. Ingenting raderas innan du gör det."
+          },
+          {
+            "h3": "Utan appen"
+          },
+          {
+            "p": "Har du avinstallerat FLIQ, eller inte kan logga in, använd formuläret längre ned på sidan. Vi skickar en engångslänk till adressen och gör ingenting förrän du öppnar den — att ta emot brevet är det som styrker att kontot är ditt, vilket en begäran som bara påstår en adress inte kan. Vi svarar inom 30 dagar som dataskyddsförordningen kräver."
+          }
+        ]
+      },
+      {
+        "num": "2",
+        "heading": "Det här raderas",
+        "blocks": [
+          {
+            "ul": [
+              "Din profil — namn, e-post, telefonnummer och adress",
+              "Alla anslutna bankkonton, och samtycket bakom dem",
+              "Sparade mottagare, notisinställningar och val",
+              "Dina inloggningar och alla aktiva sessioner"
+            ]
+          }
+        ]
+      },
+      {
+        "num": "3",
+        "heading": "Det här måste vi behålla enligt lag",
+        "blocks": [
+          {
+            "p": "FliqPay är en betaltjänstleverantör med tillstånd enligt betaltjänstlagen, som genomför EU:s betaltjänstdirektiv (PSD2). Uppgifter om betalningar du har genomfört måste bevaras även efter att kontot är borta — enligt bokföringslagen, penningtvättslagen och regelverket för betaltjänster. I regel handlar det om fem till sju år."
+          },
+          {
+            "p": "Uppgifterna används då bara för att uppfylla de skyldigheterna: inte i appen, och inte till något annat. Allt annat raderas. Rätten till radering följer av dataskyddsförordningen (GDPR) — samma regelverk som medger undantaget ovan."
+          }
+        ]
+      },
+      {
+        "num": "4",
+        "heading": "Ångrar du dig får du börja om",
+        "blocks": [
+          {
+            "p": "Det finns ingen väg tillbaka in i ett raderat konto. Du skapar ett nytt och lägger till dina bankkonton från början igen."
+          }
+        ]
+      },
+      {
+        "num": "5",
+        "heading": "Dina rättigheter och hur du når oss",
+        "blocks": [
+          {
+            "p": "Radering är en av flera rättigheter dataskyddsförordningen ger dig. Avsnitt 9 i integritetspolicyn beskriver dem alla, och avsnitt 4 listar exakt hur länge varje slags uppgift sparas och varför."
+          },
+          {
+            "dl": [
+              {
+                "k": "E-post",
+                "v": "info@fliqpayments.com"
+              },
+              {
+                "k": "Post",
+                "v": "Avanoro AB, Västra Järnvägsgatan 3, 111 64 Stockholm"
+              }
+            ]
+          },
+          {
+            "p": "Hela policyn finns här: {policy}.",
+            "links": {
+              "policy": {
+                "text": "Läs integritetspolicyn",
+                "href": "privacy.html"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "formHead": "Begär radering via e-post",
+    "formLede": "För dig som inte har appen kvar. Fyll i adressen ditt Fliq-konto använder, så skickar vi en engångslänk dit för att bekräfta.",
+    "formLabel": "E-postadress",
+    "formCta": "Skicka bekräftelselänk",
+    "formBusy": "Skickar…",
+    "formSent": "Kolla din inkorg. Länken gäller i en timme och kan bara användas en gång. Ingenting raderas förrän du öppnar den.",
+    "formInvalid": "Det där ser inte ut som en e-postadress.",
+    "formError": "Vi kunde inte skicka just nu. Ingenting raderades — försök igen om en stund."
+  }
+}
