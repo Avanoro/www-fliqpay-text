@@ -39,7 +39,7 @@
             "h3": "Without the app"
           },
           {
-            "p": "If you have uninstalled FLIQ, or cannot sign in, write to info@fliqpayments.com from the email address on the account and ask us to delete it. We verify that the request comes from the account holder before erasing anything, and we answer within 30 days as the GDPR requires."
+            "p": "If you have uninstalled FLIQ, or cannot sign in, use the form further down this page. We send a single-use link to that address and do nothing until you open it — receiving the mail is what proves the account is yours, which a request simply claiming an address cannot. We answer within 30 days as the GDPR requires."
           }
         ]
       },
@@ -108,7 +108,15 @@
           }
         ]
       }
-    ]
+    ],
+    "formHead": "Request deletion by email",
+    "formLede": "For when you no longer have the app. Enter the address your Fliq account uses and we will send a single-use confirmation link to it.",
+    "formLabel": "Email address",
+    "formCta": "Send confirmation link",
+    "formBusy": "Sending…",
+    "formSent": "Check your inbox. The link is valid for one hour and works once. Nothing is deleted until you open it.",
+    "formInvalid": "That does not look like an email address.",
+    "formError": "We could not send it right now. Nothing was deleted — try again in a moment."
   },
   "sv": {
     "title": "Radera ditt Fliq-konto — FLIQ",
@@ -150,7 +158,7 @@
             "h3": "Utan appen"
           },
           {
-            "p": "Har du avinstallerat FLIQ, eller inte kan logga in, skriv till info@fliqpayments.com från kontots e-postadress och be oss radera det. Vi kontrollerar att begäran kommer från kontoinnehavaren innan något raderas, och svarar inom 30 dagar som dataskyddsförordningen kräver."
+            "p": "Har du avinstallerat FLIQ, eller inte kan logga in, använd formuläret längre ned på sidan. Vi skickar en engångslänk till adressen och gör ingenting förrän du öppnar den — att ta emot brevet är det som styrker att kontot är ditt, vilket en begäran som bara påstår en adress inte kan. Vi svarar inom 30 dagar som dataskyddsförordningen kräver."
           }
         ]
       },
@@ -219,6 +227,14 @@
           }
         ]
       }
-    ]
+    ],
+    "formHead": "Begär radering via e-post",
+    "formLede": "För dig som inte har appen kvar. Fyll i adressen ditt Fliq-konto använder, så skickar vi en engångslänk dit för att bekräfta.",
+    "formLabel": "E-postadress",
+    "formCta": "Skicka bekräftelselänk",
+    "formBusy": "Skickar…",
+    "formSent": "Kolla din inkorg. Länken gäller i en timme och kan bara användas en gång. Ingenting raderas förrän du öppnar den.",
+    "formInvalid": "Det där ser inte ut som en e-postadress.",
+    "formError": "Vi kunde inte skicka just nu. Ingenting raderades — försök igen om en stund."
   }
 }
