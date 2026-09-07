@@ -1,75 +1,53 @@
-# FLIQ website text
+# FLIQ transactional email copy
 
-All editable copy for the FLIQ marketing site lives here, split out of the
-HTML so it can be changed without touching code. Edits to `main` go live on the
-site automatically (see "How updates reach the site" below).
+This repo now holds **only the copy for transactional emails**.
+
+Page copy used to live here too. It moved into the website repo
+([`Avanoro/www-fliqpayments`](https://github.com/Avanoro/www-fliqpayments))
+under `content/<page>/content.json`, where the build reads it straight off
+disk. Edit page text there, not here.
 
 ## Layout
 
-Each folder matches a page on the site:
-
 ```
-index/content.json                      → home page
-careers/content.json                    → careers landing
-press/content.json                      → press page
-careers/account-manager/content.json    → job pages
-careers/brand-communications-lead/content.json
-careers/full-stack-developer/content.json
-careers/mobile-app-developer/content.json
-roadmap/invoice-payments/content.json   → roadmap feature pages
-roadmap/crossborder-payments/content.json
-roadmap/offline-payments/content.json
-roadmap/gift-cards/content.json
-roadmap/split-pay/content.json
-roadmap/bonus-system/content.json
-roadmap/in-store-payments/content.json
-roadmap/start-accepting/content.json
+email/waitlist/content.json   → the waitlist welcome email
 ```
 
-## How to edit text
+## Why the email copy stayed
 
-Open the `content.json` for the page. It looks like:
+`functions/api/waitlist.js` in the website repo fetches this file **at request
+time**, cached for five minutes:
+
+```
+https://raw.githubusercontent.com/Avanoro/www-fliqpay-text/main/email/waitlist/content.json
+```
+
+That means a reworded email goes out on the next signup without deploying the
+site. Page copy has no equivalent need — it is baked into the HTML at build
+time — so keeping it here only bought two copies that could drift.
+
+## How to edit
 
 ```json
 {
-  "en": {
-    "heroLine1": "Give value,",
-    "heroLede": "Turn your gift cards into a new revenue stream..."
-  },
-  "sv": {
-    "heroLine1": "Ge värde,",
-    "heroLede": "Förvandla era presentkort till en ny intäktström..."
-  }
+  "en": { "subject": "..." },
+  "sv": { "subject": "..." }
 }
 ```
 
 - `en` = English, `sv` = Swedish.
-- Edit the text **on the right side of the colon**, inside the quotes.
-- Do **not** change the keys (left side, e.g. `heroLine1`) — they link the text
-  to its place on the page.
-- Keep the quotes and the trailing commas. Special characters (— · å ä ö) are fine.
+- Change the text **to the right of the colon**, inside the quotes.
+- Do **not** change the keys on the left — they map the text to its slot in the
+  email template.
+- Keep the quotes and commas. Accented characters (å ä ö — ·) are fine.
 
-Commit to `main` (or open a PR and merge it).
+Commit to `main`. The change is live on the next signup once the five-minute
+cache expires; no deploy needed.
 
-> **Job pages:** Swedish (`sv`) is filled in; English (`en`) fields are blank,
-> ready for translation. Until filled, those pages display Swedish.
+## A note on the publish workflow
 
-## How updates reach the site
-
-The site loads these files through the jsDelivr CDN, pinned to `@main`:
-
-```
-https://cdn.jsdelivr.net/gh/Avanoro/www-fliqpay-text@main/<page>/content.json
-```
-
-jsDelivr caches each file for up to **12 hours**, so an edit may take that long
-to appear on its own. To make it appear **immediately**, purge the cache for the
-files you changed by visiting (in a browser, once each):
-
-```
-https://purge.jsdelivr.net/gh/Avanoro/www-fliqpay-text@main/roadmap/gift-cards/content.json
-```
-
-(Replace the path with the file you edited.) After the purge returns success,
-reload the site and the new text is live. Cloudflare on the site side may add a
-short additional cache; a hard refresh clears that.
+`.github/workflows/publish.yml` fires a Cloudflare Pages deploy hook on any
+`**/*.json` push. It existed to rebuild the site when page copy changed. Since
+the email copy is read at request time, a rebuild does nothing for it — the
+workflow is now harmless but redundant, and can be removed whenever someone
+feels like tidying up.
